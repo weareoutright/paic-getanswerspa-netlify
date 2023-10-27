@@ -4,12 +4,27 @@
     flex-direction: row;
     background-color: $purple;
     color: $white;
-    padding: 3.5em .5em 0em 13em;
-    min-height: 140vh;
+    padding: 3.5em .5em 10em 13em;
+    min-height: auto;
+    height: fit-content;
     .faq-header-and-image {
         width: 25%;
         display: flex;
         flex-direction: column;
+        .faq-image {
+            border-radius: 0em 1em 1em 0em;
+            padding-top: 4.75em;
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 25;
+        }   
+    }
+    .faq-content {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        padding: 1em 10em;
         h2 {
             color: $pink;
             font-family: $main-typeface, sans-serif;
@@ -20,23 +35,10 @@
             letter-spacing: -.01em;
             text-transform: uppercase;
             padding-bottom: 0;
-            margin-bottom: .5em;
+            margin-top: 1.5em;
+            margin-bottom: .15em;
             text-align: left;
         }
-        .faq-image {
-            border-radius: 0em 1em 1em 0em;
-            padding-top: 11.5em;
-            position: absolute;
-            display: block;
-            left: 0;
-            top: 20;
-        }   
-    }
-    .faq-content {
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        padding: 1.9em 10em;
     }
 
 }
