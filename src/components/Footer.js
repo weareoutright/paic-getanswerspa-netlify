@@ -10,7 +10,6 @@ const Footer = () => {
           <p className="contact">Contact: {PAIC_INFO.contact}</p>
         </div>
         <div className="mission-statement">
-          <h5>Mission Statement</h5>
           Brought to you by the{" "}
           <a
             href="https://www.immunizepa.org/"
