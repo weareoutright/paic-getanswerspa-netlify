@@ -1,6 +1,12 @@
+/* // TODO
+- figure out slider for nav
+- Need maxYscroll and then work with the percentages to create the illusion of sliding (5 links means increments of 20%. e.g. 
+If percentage is between 40% and 49%, currentElement should be the second tab or FAQ)
+- update on scroll and will look like it sticks to each nav link
+- background color will look like it is wiping from one side and moving into the next - will need to work with percentages to achieve this illusion
+*/
+
 .Nav {
-    // background-color: rgb(0, 0, 0, .2);
-    // backdrop-filter: blur(1em);
     z-index: 5;
     position: fixed;
     color: $white;
