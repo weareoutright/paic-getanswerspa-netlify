@@ -11,12 +11,14 @@
             background-color: transparent;
             border: none;
             padding: 0;
+            border-radius: 50%;
             margin: none;
             height: fit-content;
             width: auto;
             display: flex;
             align-items: center;
             text-align: center;
+            transition: all 125ms ease-in-out;
             span {
                 border: 1px solid $pink;
                 border-radius: 50%;
@@ -30,6 +32,9 @@
             span:hover {
                 cursor: pointer;
             }
+         }
+         button:hover {
+            background-color: $pink;
          }
     }
 
