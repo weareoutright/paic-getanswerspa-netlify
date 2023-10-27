@@ -10,7 +10,9 @@ const SingleResource = ({ resource, topic }) => {
       rel="noreferrer"
     >
       <button className="SingleResource">
-        <span className="resource-link">{topic}</span>
+        <span className="resource-link">
+          {topic === "Flu/Influenza" ? "Flu" : topic}
+        </span>
         <br />
         <span className="resource-title">{resource.title}</span>
       </button>
