@@ -95,7 +95,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 5,
+        id: 4,
         question: "Who is most likely to get sick with flu?",
         answer: (
           <StaticAnswer>
@@ -120,7 +120,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 6,
+        id: 5,
         question: "Why should people get vaccinated against the flu?",
         answer: (
           <StaticAnswer>
@@ -157,7 +157,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 7,
+        id: 6,
         question: "How do flu vaccines work?",
         answer: (
           <StaticAnswer>
@@ -175,7 +175,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 9,
+        id: 7,
         question: "What are the benefits of flu vaccinations?",
         answer: (
           <StaticAnswer>
@@ -379,7 +379,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 10,
+        id: 8,
         question: "Can I get the flu vaccine if I'm pregnant?",
         answer: (
           <StaticAnswer>
@@ -427,7 +427,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 11,
+        id: 9,
         question: "How serious is the flu?",
         answer: (
           <StaticAnswer>
@@ -463,7 +463,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 12,
+        id: 10,
         question: "What are the complications of flu?",
         answer: (
           <StaticAnswer>
@@ -487,21 +487,21 @@ export const TOPICS = [
         ),
       },
       {
-        id: 13,
+        id: 11,
         question: "When can I get the flu vaccine?",
         answer: (
           <StaticAnswer answer="Yearly flu vaccination should begin soon after flu vaccine is available and, ideally, by October. However, getting vaccinated even later can be protective, as long as flu viruses are circulating. While seasonal influenza outbreaks can happen as early as October, influenza activity most often peaks in January or later. Since it takes about two weeks after vaccination for antibodies to develop in the body that protect against influenza virus infection, it is best that people get vaccinated to be protected before influenza begins spreading in their community."></StaticAnswer>
         ),
       },
       {
-        id: 14,
+        id: 12,
         question: "Who should get vaccinated?",
         answer: (
           <StaticAnswer answer='Everyone 6 months of age and older should get a flu vaccine every season. This recommendation has been in place since Feb. 24, 2010, when CDC&apos;s Advisory Committee on Immunization Practices (ACIP) voted for "universal" flu vaccination in the United States to expand protection against the flu to more people. Vaccination to prevent influenza is particularly important for people who are at high risk of serious complications from influenza.'></StaticAnswer>
         ),
       },
       {
-        id: 15,
+        id: 13,
         question: "What is an influenza vaccine clinic?",
         answer: (
           <StaticAnswer>
@@ -526,7 +526,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 16,
+        id: 14,
         question: "How do I find a flu clinic in my area?",
         answer: (
           <StaticAnswer>
@@ -551,7 +551,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 17,
+        id: 15,
         question: "Flu - Additional Information",
         answer: (
           <StaticAnswer>
@@ -618,64 +618,141 @@ export const TOPICS = [
     title: "COVID",
     content: [
       {
-        id: 10,
-        question: "What is COVID-19?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
-      },
-      {
-        id: 11,
-        question: "What are the symptons of COVID?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
-      },
-      {
-        id: 12,
-        question: "How serious is COVID?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
-      },
-      {
-        id: 13,
-        question: "What are the complications of COVID?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
-      },
-      {
-        id: 14,
-        question: "How many people get sick with COVID every year?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
-      },
-      {
-        id: 15,
-        question: "Who is most likely to get sick with COVID?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
-      },
-      {
         id: 16,
-        question: "When can I get the COVID vaccine?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
+        question:
+          "If I already had COVID-19 and recovered, do I still need to get a COVID-19 vaccine?",
+        answer: (
+          <StaticAnswer answer="Yes, you should get an updated COVID-19 vaccine even if you’ve already had and recovered from COVID-19. People who already had COVID-19 and do not get vaccinated after their recovery are more likely to get COVID-19 again than those who get vaccinated after their recovery."></StaticAnswer>
+        ),
       },
       {
         id: 17,
-        question: "Who should get vaccinated?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
+        question:
+          "Why should children and teens get vaccinated against COVID-19?",
+        answer: (
+          <StaticAnswer answer="COVID-19 can make children and teens very sick and sometimes requires treatment in a hospital. Getting children and teens vaccinated against COVID-19 can help keep them from getting really sick if they do get COVID-19, including protecting them from short and long-term complications and hospitalization."></StaticAnswer>
+        ),
       },
       {
         id: 18,
-        question: "Why should people get vaccinated against COVID?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
+        question:
+          "Are COVID-19 vaccines safe even though the vaccines were developed rapidly?",
+        answer: (
+          <StaticAnswer answer="Although COVID-19 vaccines were developed quickly, research and development on vaccines like these has been underway for decades. All vaccine development steps were taken to ensure COVID-19 vaccine safety and effectiveness, including clinical trials, authorization and approval, and tracking safety using vaccine monitoring systems."></StaticAnswer>
+        ),
       },
       {
         id: 19,
-        question: "What are the benefits of COVID vaccinations?",
-        answer:
-          "Flu is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death. The best way to prevent flu is by getting a flu vaccine each year.",
+        question: "What are the ingredients in the COVID-19 vaccine?",
+        answer: (
+          <StaticAnswer answer="Vaccine ingredients vary by manufacturer. None of the vaccines contain eggs, gelatin, latex, or preservatives."></StaticAnswer>
+        ),
+      },
+      {
+        id: 20,
+        question: "Why should I get vaccinated if I might get COVID-19 anyway?",
+        answer: (
+          <StaticAnswer answer="COVID-19 vaccines are working well to prevent severe illness, hospitalization, and death. Compared to people who are up to date with their COVID-19 vaccinations, unvaccinated people are more likely to get COVID-19, much more likely to be hospitalized with COVID-19, and much more likely to die from COVID-19."></StaticAnswer>
+        ),
+      },
+      {
+        id: 21,
+        question:
+          "If I am pregnant or planning to become pregnant, can I receive a COVID-19 vaccine?",
+        answer: (
+          <StaticAnswer>
+            <p>
+              Yes, COVID-19 vaccination is recommended for people who are
+              pregnant, breastfeeding, or trying to get pregnant now, as well as
+              people who might become pregnant in the future.
+            </p>
+            <p>
+              People who get a COVID-19 infection during pregnancy are more
+              likely to deliver a preterm (born earlier than 37 weeks of
+              pregnancy) or stillborn infant and may also be more likely to have
+              other pregnancy complications.
+            </p>
+          </StaticAnswer>
+        ),
+      },
+      {
+        id: 22,
+        question: "Can I get more than one updated COVID-19 vaccine?",
+        answer: (
+          <StaticAnswer answer="People who are moderately or severely immunocompromised may get additional doses of updated COVID-19 vaccine 2 or more months after getting the last updated COVID-19 vaccine."></StaticAnswer>
+        ),
+      },
+      {
+        id: 23,
+        question: "What COVID-19 vaccines are currently available?",
+        answer: (
+          <StaticAnswer>
+            <p>
+              Pfizer-BioNTech and Moderna vaccines, which are mRNA vaccines, and
+              the Novavax vaccine, which is a protein subunit vaccine.{" "}
+            </p>
+            <p>
+              None of the COVID-19 vaccines affect or interact with our DNA.
+            </p>
+          </StaticAnswer>
+        ),
+      },
+      {
+        id: 24,
+        question:
+          "How many doses are required for the updated fall 2023 COVID-19 vaccine?",
+        answer: (
+          <StaticAnswer>
+            <p>For adults, Moderna and Pfizer are a single dose.</p>
+
+            <p>
+              For children 5 and younger, Moderna is a two-dose series and
+              Pfizer is a three-dose series.
+            </p>
+            <p>
+              For moderately or severely immunocompromised adults, additional
+              doses may be recommended, and people who fall into these
+              categories should discuss COVID-19 dosing with their primary care
+              provider.
+            </p>
+          </StaticAnswer>
+        ),
+      },
+      {
+        id: 25,
+        question: "Is the new COVID-19 vaccine a booster? ",
+        answer: (
+          <StaticAnswer>
+            <p>
+              The updated Moderna and Pfizer COVID-19 vaccines use the XBB
+              strain of Omicron as the targeted virus for the new formulation.
+              The XBB strain has been widely circulating for most of 2023.
+            </p>
+
+            <p>
+              While the updated vaccine is not technically considered a booster,
+              it may be referred to as a booster in media reports and elsewhere.
+              However, we foresee the COVID vaccine becoming an annual vaccine,
+              just like the flu vaccine.
+            </p>
+          </StaticAnswer>
+        ),
+      },
+      {
+        id: 25,
+        question:
+          "Is there an efficacy difference between the COVID-19 vaccines?",
+        answer: (
+          <StaticAnswer answer="All of the available COVID-19 vaccines have shown similar efficacy in studies."></StaticAnswer>
+        ),
+      },
+      {
+        id: 26,
+        question:
+          "Can I get the updated COVID-19 vaccine if I have never been vaccinated for COVID before?",
+        answer: (
+          <StaticAnswer answer="Yes. Prior COVID vaccination is not an eligibility requirement."></StaticAnswer>
+        ),
       },
     ],
   },
