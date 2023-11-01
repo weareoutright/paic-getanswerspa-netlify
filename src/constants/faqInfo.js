@@ -550,68 +550,6 @@ export const TOPICS = [
           </StaticAnswer>
         ),
       },
-      {
-        id: 15,
-        question: "Flu - Additional Information",
-        answer: (
-          <StaticAnswer>
-            <ul>
-              <li>
-                <a href="https://www.health.pa.gov/topics/Documents/Diseases%20and%20Conditions/Flu/Seasonal%20Influenza%20Fact%20Sheet.pdf">
-                  Seasonal Influenza Factsheet
-                </a>
-              </li>
-              <li>
-                <a href="https://www.cdc.gov/flu/season/faq-flu-season-2023-2024.htm">
-                  What You Should Know for the 2023-2024 Influenza SeasonOpens
-                  In A New Window
-                </a>
-              </li>
-              <li>
-                <a href="https://www.cdc.gov/mmwr/volumes/71/rr/rr7101a1.htm">
-                  Prevention and Control of Influenza with Vaccines:
-                  Recommendations of the Advisory Committee on Immunization
-                  Practices, United States, 2023-24 Influenza SeasonOpens In A
-                  New Window
-                </a>
-              </li>
-              <li>
-                <a href="https://www.health.pa.gov/topics/Documents/HAN/2023-714-8-9-ADV-Variant%20Influenza.pdf">
-                  Guidance for Clinicians on Human Infections with Variant
-                  Influenza Viruses - Pennsylvania Department of Health - PDF
-                </a>
-              </li>
-              <li>
-                <a href="https://www.cdc.gov/flu/season/index.html">
-                  This Flu Season (CDC)
-                </a>
-              </li>
-              <li>
-                <a href="https://www.immunize.org/influenza/">
-                  Immunize.org - Flu Vaccine
-                </a>
-              </li>
-              <li>
-                <a href="https://ors.od.nih.gov/flu/pages/flu_faq.aspx">
-                  Flu FAQs from NIH
-                </a>
-              </li>
-              <li>
-                Source:{" "}
-                <a href="https://www.health.pa.gov/topics/disease/Flu/Pages/Flu.aspx">
-                  Flu - health.pa.gov
-                </a>
-              </li>
-              <li>
-                Source:{" "}
-                <a href="https://www.cdc.gov/flu/prevent/keyfacts.htm">
-                  Flu Prevention Key Facts - cdc.gov
-                </a>
-              </li>
-            </ul>
-          </StaticAnswer>
-        ),
-      },
     ],
   },
   {
@@ -739,7 +677,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 25,
+        id: 26,
         question:
           "Is there an efficacy difference between the COVID-19 vaccines?",
         answer: (
@@ -747,7 +685,7 @@ export const TOPICS = [
         ),
       },
       {
-        id: 26,
+        id: 27,
         question:
           "Can I get the updated COVID-19 vaccine if I have never been vaccinated for COVID before?",
         answer: (
