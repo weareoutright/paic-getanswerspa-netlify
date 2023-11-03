@@ -1,5 +1,5 @@
 .Quote {
-    height: 100vh;
+    height: 85vh;
     background-color: $pink;
     color: $purple;
     display: flex;
@@ -20,10 +20,10 @@
             padding-right: .5em;
         }
         .main-quote {
-            padding-bottom: 5em;
+            padding-bottom: 2em;
             margin: auto 0;
             font-weight: 600;
-            padding-top: 1em;
+            padding-top: .5em;
             text-align: center;
             .quote-content {
                 text-transform: uppercase;

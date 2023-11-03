@@ -2,6 +2,7 @@ import React from "react";
 import SingleFAQ from "./SingleFAQ.js";
 import FAQImage from "../images/upside-down-guy.png";
 import { TOPICS } from "../constants/faqInfo";
+import Accordian from "./Accordian.js";
 
 const FAQs = () => {
   return (
@@ -14,6 +15,10 @@ const FAQs = () => {
         {TOPICS.map((topic) => {
           return <SingleFAQ key={`${topic.title}-key`} topic={topic} />;
         })}
+        {/* 
+        {TOPICS.map((topic) => {
+          return <Accordian key={`${topic.title}-key`} topic={topic} />;
+        })} */}
       </div>
     </div>
   );
