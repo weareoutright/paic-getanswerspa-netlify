@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.4",
     "browser-monads-ts": "^2.0.1",
     "dotenv": "^16.3.1",
     "gatsby": "^5.12.4",
@@ -34,9 +35,11 @@
     "gatsby-source-wordpress": "^7.12.1",
     "gatsby-transformer-sharp": "^5.12.1",
     "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "sass": "^1.69.3"
+    "sass": "^1.69.3",
+    "styled-components": "^6.1.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.4",
