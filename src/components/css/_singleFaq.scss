@@ -1,8 +1,8 @@
 .faq-content-header {
     h4 {
         border-bottom: 1px solid $pink;
-        padding-bottom: 1em;
-        margin-top: 1em;
+        padding-bottom: .5em;
+        margin-top: .5em;
         margin-bottom: 0em;
         display: flex;
         justify-content: space-between;
@@ -48,10 +48,13 @@
     padding: .25em 0em .25em 0em;
     color: $white;
     .faq-q-and-a {
-        border-bottom: 1px solid $light-purple;
         animation: fadeIn 300ms ease-in both;
+        border-bottom: 1px solid $light-purple;
         .faq-question {
             animation: fadeIn 300ms ease-in both;
+            .rotate {
+                transform: rotate(180deg);
+            }
         }
     }
     .faq-q-and-a, .faq-q-and-a-hidden {
@@ -91,22 +94,22 @@
         }
     
         .faq-question-hidden {
-            transition: all 300ms ease-in-out;
+            animation: fadeOut 400ms ease-in both;
             display: none;
         }
         
         .faq-answer {
-            margin: 0;
-            padding-bottom: 2em;
+            padding-bottom: 1em;
+            margin-top: .25em;
             font-size: 1em;
             animation: fadeIn 400ms ease-in both;
             overflow: hidden;
+            margin-bottom: 0;
             font-family: $secondary-typeface, sans-serif;
         }
         .faq-answer-hidden {
             max-height: 0;
             overflow: hidden;
-            display: none;
         }
     }
 }

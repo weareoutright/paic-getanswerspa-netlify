@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { getSvg } from "../images/svgFiles";
+import AccordionComponent from "./Accordion";
 
 const SingleFAQ = ({ topic }) => {
   const [showQuestions, setShowQuestions] = useState(false);
   const [showAnswers, setShowAnswers] = useState(false);
   const [topicArrow, setTopicArrow] = useState("open-button");
-  const [currentAnswer, setCurrentAnswer] = useState(null);
 
   useEffect(() => {}, [showQuestions, showAnswers, topicArrow]);
 
@@ -39,42 +39,11 @@ const SingleFAQ = ({ topic }) => {
       <div key={topic.title} className="faq-topic">
         {topic.content.map((content) => {
           return (
-            <div
-              className={showQuestions ? "faq-q-and-a" : "faq-q-and-a-hidden"}
-            >
-              <div
-                className={
-                  showQuestions ? "faq-question" : "faq-question-hidden"
-                }
-                onClick={() => {
-                  setCurrentAnswer(content.id);
-                  setShowAnswers(!showAnswers);
-                }}
-              >
-                {content.question}{" "}
-                <button
-                  onClick={() => {
-                    setCurrentAnswer(content.id);
-                    setShowAnswers(!showAnswers);
-                  }}
-                >
-                  <span>
-                    {content.id === currentAnswer && showAnswers
-                      ? getSvg("arrow-forward")
-                      : getSvg("arrow-back")}
-                  </span>
-                </button>
-              </div>
-              <p
-                className={
-                  showAnswers && content.id === currentAnswer
-                    ? "faq-answer"
-                    : "faq-answer-hidden"
-                }
-              >
-                {content.answer}
-              </p>
-            </div>
+            <AccordionComponent
+              key={`${topic.title}-key`}
+              content={content}
+              showQuestions={showQuestions}
+            />
           );
         })}
       </div>

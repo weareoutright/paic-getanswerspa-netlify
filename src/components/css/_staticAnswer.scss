@@ -3,6 +3,7 @@
         font-weight: 700;
     }
 
+
     a {
         text-decoration: none;
         color: $pink;
@@ -12,4 +13,9 @@
         font-style: italic;
     }
 
+    .faq-answer {
+        font-size: 1em;
+        overflow: hidden;
+        font-family: $secondary-typeface, sans-serif;
+     }
 }
