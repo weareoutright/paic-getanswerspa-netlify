@@ -1,6 +1,4 @@
 .Nav {
-    // background-color: rgb(0, 0, 0, .2);
-    // backdrop-filter: blur(1em);
     z-index: 5;
     position: fixed;
     color: $white;
@@ -15,11 +13,11 @@
     border-bottom: 1px solid $pink;
     .nav-container {
         margin: 0 auto;
-        padding: .75em 2em;
+        padding: .6em 2em;
         a {
             color: $white;
             text-decoration: none;
-            padding: .75em 2.75em;
+            padding: .7em 2.75em;
             margin-left: 3em;
             margin-right: 3em;
             transition: all 125ms ease-in-out;

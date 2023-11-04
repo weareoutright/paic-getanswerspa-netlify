@@ -25,8 +25,12 @@ const Footer = () => {
         </div>
         <div className="organizational-info">
           <div className="branding-images">
-            <img alt="PAIC logo" src={PAIC_INFO.logo} />
-            <img alt="Chapter info" src={PAIC_INFO.chapter} />
+            <img alt="PAIC logo" src={PAIC_INFO.logo} className="img-fluid" />
+            <img
+              alt="Chapter info"
+              src={PAIC_INFO.chapter}
+              className="img-fluid"
+            />
           </div>
           <p className="copyright">
             © {new Date().getFullYear()} |{" "}

@@ -1,10 +1,9 @@
 .Hero {
     background-color: $dark-teal;
-    padding: 4em .5em 7em 13em;
+    padding: 3em .5em 10em 10em !important;
     display: flex;
     flex-direction: row;
     align-items: top;
-    height: 85vh;
     h1 {
         color: $pink;
         font-family: $main-typeface, sans-serif;
@@ -22,12 +21,14 @@
     h2 {
         color: $white;
         font-family: $main-typeface, sans-serif;
-        font-size: 2rem;
+        font-size: 2.25em;
+        text-wrap: nowrap;
         font-style: normal;
         font-weight: 600;
         line-height: 36px; /* 109.091% */
         letter-spacing: 0.66px;
         text-transform: uppercase;
+        padding-top: 1em;
     }
 
 
@@ -86,6 +87,7 @@
         
     }
 
+     // need a media query for this image for small screen
     .hero-image {
         padding-top: 4em;
         img {

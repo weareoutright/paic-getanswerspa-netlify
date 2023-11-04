@@ -1,8 +1,7 @@
 .Footer {
-    height: 35vh;
     background-color: $dark-teal;
     color: $white;
-    padding: 3em 15em 9em 13em;
+    padding: 3em 15em 5em 13em !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,7 +22,7 @@
             }
         }
         .mission-statement {
-            margin-bottom: 3em;
+            margin-bottom: 7em;
             width: 65%;
             font-family: $secondary-typeface, sans-serif;
             font-style: italic;

@@ -1,16 +1,15 @@
 .Quote {
-    height: 85vh;
     background-color: $pink;
     color: $purple;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding-top: 10em;
     .open-and-quote {
         display: flex;
         flex-direction: row;
+        padding-top: 1em;
+        padding-bottom: 6em;
         .open-quotation {
-            font-size: 15em;
+            font-size: 20em;
             letter-spacing: -5px;
             height: fit-content;
             transform: rotate(180deg);
@@ -20,15 +19,14 @@
             padding-right: .5em;
         }
         .main-quote {
-            padding-bottom: 2em;
             margin: auto 0;
             font-weight: 600;
-            padding-top: .5em;
+            padding-top: 1em;
             text-align: center;
             .quote-content {
                 text-transform: uppercase;
                 letter-spacing: -1px;
-                padding: 2em 3em 0 3em;
+                padding: 0 .25em 0 .25em;
                 font-size: 2.5em;
                 margin: 0;
             }
@@ -49,7 +47,7 @@
     }
     .close-quotation{
         margin: 0 .3em 0 .2em;
-        font-size: 15em;
+        font-size: 20em;
         letter-spacing: -5px;
         text-align: right;
         color: rgb(255, 255, 255, .3);
@@ -57,17 +55,4 @@
         padding-right: .5em;
         justify-content: end;
     }
-    
 }
-
-/*
-TO-DO:
-- display flex
-- direction column
-- first child text align start/left
-- main-quote div centered
-- last child text align end/right
-
-- rotate first child (open-quotation) 180 degrees
-- increase font-size of first and last child
-*/

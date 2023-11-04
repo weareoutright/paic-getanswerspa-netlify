@@ -3,8 +3,6 @@ import { DISPLAYED_RESOURCES } from "../constants/resourcesInfo";
 import MainResourceTopic from "./MainResourceTopic";
 import resourceImg from "../images/adult-hugging-child.png";
 
-// refactor into a single topic that can be mapped
-
 const Resources = () => {
   return (
     <section className="Resources" id="resources">

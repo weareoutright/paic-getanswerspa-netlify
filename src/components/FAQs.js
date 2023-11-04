@@ -8,7 +8,7 @@ const FAQs = () => {
   return (
     <div className="FAQs" id="faqs">
       <div className="faq-header-and-image">
-        <img className="faq-image" alt="faq" src={FAQImage} />
+        <img className="faq-image img-fluid" alt="faq" src={FAQImage} />
       </div>
       <div className="faq-content">
         <h2>FAQs</h2>

@@ -14,25 +14,27 @@ const Hero = () => {
 
   return (
     <main className="Hero" id="home">
-      <div className="hero-main-content">
-        <h1>
-          We get it,
-          <br />
-          Vaccines
-          <br />
-          Can Be
-          <br />
-          Confusing.
-        </h1>
-        <h2>Pennsylvania Doctors have answers.</h2>
-        <button className={buttonDown ? "attention-getter" : ""}>
-          <AnchorLink to="#faqs">
-            Start Here <span>{getSvg("arrow-downward-alt")}</span>
-          </AnchorLink>
-        </button>
+      <div className="hero-main-content row container">
+        <div className="col-sm-10">
+          <h1>
+            We get it,
+            <br />
+            Vaccines
+            <br />
+            Can Be
+            <br />
+            Confusing.
+          </h1>
+          <h2>Pennsylvania Doctors have answers.</h2>
+          <button className={buttonDown ? "attention-getter" : ""}>
+            <AnchorLink to="#faqs">
+              Start Here <span>{getSvg("arrow-downward-alt")}</span>
+            </AnchorLink>
+          </button>
+        </div>
       </div>
-      <div className="hero-image">
-        <img src={heroImg} alt="placeholder" />
+      <div className="hero-image col-sm-6">
+        <img src={heroImg} alt="placeholder" className="img-fluid" />
       </div>
     </main>
   );
