@@ -7,6 +7,7 @@ import { NAV_LINKS } from "../constants/navLinks";
 const Nav = () => {
   const [currentElement, setCurrentElement] = useState("");
   const [offset, setOffset] = useState(0);
+
   const [navBackground, setNavBackground] = useState("Nav");
 
   const nav = document.getElementsByClassName("Nav");

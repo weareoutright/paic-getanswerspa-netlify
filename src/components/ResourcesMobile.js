@@ -3,9 +3,9 @@ import { DISPLAYED_RESOURCES } from "../constants/resourcesInfo";
 import MainResourceTopic from "./MainResourceTopic";
 import resourceImg from "../images/adult-hugging-child.png";
 
-const Resources = () => {
+const ResourcesMobile = () => {
   return (
-    <section className="Resources" id="resources">
+    <section className="Resources ResourcesMobile" id="resources">
       <h2>Resources</h2>
       {DISPLAYED_RESOURCES.map((resource) => {
         return (
@@ -22,4 +22,4 @@ const Resources = () => {
   );
 };
 
-export default Resources;
+export default ResourcesMobile;

@@ -42,3 +42,51 @@
     }
 
 }
+
+.FAQsMobile {
+    display: flex;
+    flex-direction: column;
+    padding: .5em 0em .5em 0em !important;
+
+    .faq-image {
+        float: left;
+        width: 80%;
+        margin-left: -1.5em;
+        padding-top: 2em;
+    }
+    .faq-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -6em;
+        h2 {
+            color: $pink;
+            font-family: $main-typeface, sans-serif;
+            font-size: 3.75em;
+            font-style: normal;
+            font-weight: 700;
+            line-height: .75em; /* 93.966% */
+            letter-spacing: -.01em;
+            text-transform: uppercase;
+            padding-bottom: 0;
+            margin-bottom: .15em;
+            text-align: left;
+            margin-top: .5em;
+        }
+    }
+    .faq-content-header {
+        h4 {
+            width: 9.85em;
+        }
+    }
+
+    .faq-q-and-a {
+        width: 24.75em;
+        text-wrap: balance;
+    }
+
+    .accordian-arrow {
+        margin-right: .4em;
+    }
+
+}

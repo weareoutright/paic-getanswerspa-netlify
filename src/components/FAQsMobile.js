@@ -1,14 +1,12 @@
 import React from "react";
 import SingleFAQ from "./SingleFAQ.js";
-import FAQImage from "../images/upside-down-guy.png";
+import FAQImageMobile from "../images/upside-down-guy-mobile.svg";
 import { TOPICS } from "../constants/faqInfo";
 
-const FAQs = () => {
+const FAQsMobile = () => {
   return (
-    <div className="FAQs" id="faqs">
-      <div className="faq-header-and-image">
-        <img className="faq-image img-fluid" alt="faq" src={FAQImage} />
-      </div>
+    <div className="FAQs FAQsMobile" id="faqs">
+      <img className="faq-image" alt="faq" src={FAQImageMobile} />
       <div className="faq-content">
         <h2>FAQs</h2>
         {TOPICS.map((topic) => {
@@ -19,4 +17,4 @@ const FAQs = () => {
   );
 };
 
-export default FAQs;
+export default FAQsMobile;

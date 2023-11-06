@@ -40,7 +40,7 @@ const SingleFAQ = ({ topic }) => {
         {topic.content.map((content) => {
           return (
             <AccordionComponent
-              key={`${topic.title}-key`}
+              key={content.id}
               content={content}
               showQuestions={showQuestions}
             />

@@ -35,7 +35,7 @@ const AccordionComponent = ({ content, showQuestions }) => {
               }
             >
               {content.question}
-              <span>{getSvg(answerArrow)}</span>
+              <span className="accordian-arrow">{getSvg(answerArrow)}</span>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel
