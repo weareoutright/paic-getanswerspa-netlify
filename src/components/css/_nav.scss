@@ -93,3 +93,31 @@
     }
 
 }
+
+.NavMobile {
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    .navbar {
+        padding-left: 0em .5em;
+        background-color: $pink !important;
+        button {
+            border: none;
+            padding: .15em;
+        }
+        button:active {
+            border: none;
+        }
+    }
+    .collapse {
+        text-align: left;
+        transition: all 120ms ease-in;
+        padding-left: .5em;
+        .nav-link {
+            color: $black;
+        }
+        .nav-link:hover {
+            color: $purple;
+        }
+    }
+}
