@@ -1,7 +1,7 @@
 import React from "react";
 import { DISPLAYED_RESOURCES } from "../constants/resourcesInfo";
 import MainResourceTopic from "./MainResourceTopic";
-import resourceImg from "../images/adult-hugging-child.png";
+import resourceImgMobile from "../images/adult-hugging-child-mobile.svg";
 
 const ResourcesMobile = () => {
   return (
@@ -12,11 +12,10 @@ const ResourcesMobile = () => {
           <MainResourceTopic key={resource.title} mainResource={resource} />
         );
       })}
-      <div className="trigger-contact-highlight"></div>
       <img
         className="footer-img-overlap"
         alt="adult hugging child"
-        src={resourceImg}
+        src={resourceImgMobile}
       />
     </section>
   );

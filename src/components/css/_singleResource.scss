@@ -1,18 +1,5 @@
 .SingleResourceForm {
     .SingleResource {
-        @include make-col-ready();
-
-        @include media-breakpoint-up(sm) {
-          @include make-col();
-        }
-
-        @include media-breakpoint-up(md) {
-            @include make-col();
-          }
-
-        @include media-breakpoint-up(lg) {
-          @include make-col();
-        }
         min-height: 9em;
         max-height: 9em;
         width: 22em;
@@ -45,4 +32,41 @@
         top: .2em;
         left: .2em;
     }
+}
+
+.SingleResourceFormMobile {
+  .SingleResource {
+    min-height: 9em;
+    max-height: 9em;
+    width: 10em;
+    background-color: $white;
+    border: 2px solid $dark-teal;
+    padding:  .5em 1em;
+    margin: 1em 1.25em 1.75em 1.25em;
+    border-radius: .85em;
+    text-align: left;
+    box-shadow: 8px 8px 0px 0px $dark-teal;
+    position: relative;
+    .resource-link {
+        font-family: $secondary-typeface, sans-serif;
+        font-size: .85em;
+        font-weight: 500;
+    }
+    .resource-title {
+        font-family: $secondary-typeface, sans-serif;
+        font-size: .85em;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: .5px;
+        text-wrap: balance;
+    }
+}
+
+  .SingleResource:hover {
+      cursor: pointer;
+      box-shadow: none;
+      top: .2em;
+      left: .2em;
+  }
 }
