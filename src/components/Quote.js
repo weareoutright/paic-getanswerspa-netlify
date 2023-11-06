@@ -19,6 +19,11 @@ const Quote = () => {
             <code>&#8212;</code> {QUOTE.author}
           </p>
           <small className="quote-author-info">{QUOTE.author_info}</small>
+          <div className="quote-carousel">
+            <button name="quote1" className="active"></button>
+            <button name="quote2" className=""></button>
+            <button name="quote3" className=""></button>
+          </div>
         </div>
         <div className="close-quotation">,,</div>
       </div>
