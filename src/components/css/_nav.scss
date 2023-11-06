@@ -104,9 +104,8 @@
         button {
             border: none;
             padding: .15em;
-        }
-        button:active {
-            border: none;
+            outline: none !important;
+            box-shadow: none !important;
         }
     }
     .collapse {

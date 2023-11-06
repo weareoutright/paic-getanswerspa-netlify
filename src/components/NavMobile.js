@@ -15,6 +15,7 @@ const NavMobile = () => {
             aria-controls="navbarTogglerDemo01"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            autoFocus="false"
           >
             <img src={menuToggle} />
           </button>
