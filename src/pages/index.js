@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import HeroMobile from "../components/HeroMobile";
 import FAQsMobile from "../components/FAQsMobile";
 import ResourcesMobile from "../components/ResourcesMobile";
+import QuoteMobile from "../components/QuoteMobile";
 
 import Helmet from "react-helmet";
 
@@ -62,7 +63,7 @@ const IndexPage = () => {
 
         <HeroMobile />
         <FAQsMobile />
-        <Quote />
+        <QuoteMobile />
         <ResourcesMobile />
         <Footer />
       </>

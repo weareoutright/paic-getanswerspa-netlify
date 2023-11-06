@@ -59,6 +59,7 @@
         display: flex;
         flex-direction: column;
         margin-left: -6em;
+        margin-bottom: 5em;
         h2 {
             color: $pink;
             font-family: $main-typeface, sans-serif;
@@ -69,15 +70,18 @@
             letter-spacing: -.01em;
             text-transform: uppercase;
             padding-bottom: 0;
-            margin-bottom: .15em;
+            margin-bottom: .75em;
             text-align: left;
             margin-top: .5em;
         }
     }
     .faq-content-header {
         h4 {
-            width: 9.85em;
+            width: 10em;
+            line-height: 1em;
+            margin-bottom: .5em;
         }
+
     }
 
     .faq-q-and-a {
