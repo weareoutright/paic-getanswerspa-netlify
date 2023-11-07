@@ -45,13 +45,13 @@
     width: 10em;
     background-color: $white;
     border: 2px solid $dark-teal;
-    padding:  .5em;
-    margin: .5em;
+    padding:  .5em 1em;
+    margin: .5em 0em;
     border-radius: .85em;
     text-align: left;
     box-shadow: 8px 8px 0px 0px $dark-teal;
     position: relative;
-    color: $black;
+    color: $black !important;
     .resource-link {
         font-family: $secondary-typeface, sans-serif;
         font-size: .85em;
