@@ -1,5 +1,5 @@
 export const NAV_LINKS = [
-  { title: "Home", url: "/#home", hash: "/", className: "home-nav" },
+  { title: "Home", url: "/#home", hash: "home", className: "home-nav" },
   { title: "FAQs", url: "/#faqs", hash: "faqs", className: "faqs-nav" },
   {
     title: "Interviews",
