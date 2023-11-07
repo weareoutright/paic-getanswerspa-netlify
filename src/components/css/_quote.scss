@@ -74,7 +74,8 @@
     }
 }
 
-.QuoteMobile {
+@media only screen and (max-width: 600px) {
+.Quote {
     font-size: .75em !important;
     .open-and-quote {
         display: flex;
@@ -126,4 +127,5 @@
             margin-top: -.15em;
         }
     }
+}
 }

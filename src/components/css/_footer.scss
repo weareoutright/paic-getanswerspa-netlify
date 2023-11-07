@@ -59,7 +59,8 @@
     }
 }
 
-.FooterMobile {
+@media only screen and (max-width: 600px) {
+.Footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,4 +98,5 @@
             }
         }
     }
+}
 }

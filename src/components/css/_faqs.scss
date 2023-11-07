@@ -43,7 +43,8 @@
 
 }
 
-.FAQsMobile {
+@media only screen and (max-width: 600px) {
+.FAQs {
     display: flex;
     flex-direction: column;
     padding: .5em 0em .5em 0em !important;
@@ -92,5 +93,5 @@
     .accordian-arrow {
         margin-right: .4em;
     }
-
+}
 }

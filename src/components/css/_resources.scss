@@ -49,7 +49,8 @@
     }
 }
 
-.ResourcesMobile {
+@media only screen and (max-width: 600px) {
+.Resources {
     padding: 1em 0em 3em 0em !important;
 
     h2 {
@@ -72,4 +73,5 @@
     img {
         margin-top: -10.75em;
     }
+}
 }
