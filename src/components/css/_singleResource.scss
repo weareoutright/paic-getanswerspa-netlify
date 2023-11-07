@@ -1,4 +1,4 @@
-.SingleResourceForm {
+.SingleResourceForm, form {
     .SingleResource {
         min-height: 9em;
         max-height: 9em;
@@ -11,6 +11,8 @@
         text-align: left;
         box-shadow: 8px 8px 0px 0px $dark-teal;
         position: relative;
+            color: $black !important;
+
         .resource-link {
             font-family: $secondary-typeface, sans-serif;
             font-size: 1em;
@@ -36,19 +38,20 @@
     }
 }
 
-.SingleResourceFormMobile {
+.SingleResourceFormMobile, form {
   .SingleResource {
     min-height: 9em;
     max-height: 9em;
     width: 10em;
     background-color: $white;
     border: 2px solid $dark-teal;
-    padding:  .5em 1em;
-    margin: 1em !important;
+    padding:  .5em;
+    margin: .5em;
     border-radius: .85em;
     text-align: left;
     box-shadow: 8px 8px 0px 0px $dark-teal;
     position: relative;
+    color: $black;
     .resource-link {
         font-family: $secondary-typeface, sans-serif;
         font-size: .85em;
