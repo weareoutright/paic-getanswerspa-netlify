@@ -134,3 +134,11 @@
         transform: translate3d(0, -20%, 0);
 	}
 }
+
+@media only screen and (max-width: 600px) {
+    .faq-content-header {
+        h4 {
+            width: 50%;
+        }
+    }
+}
