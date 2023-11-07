@@ -24,7 +24,7 @@ import { Script } from "gatsby";
 const IndexPage = () => {
   const { width } = useWindowSize();
 
-  if (width >= 550) {
+  if (width >= 550 && width <= 768) {
     return (
       <>
         <Helmet>
@@ -40,12 +40,12 @@ const IndexPage = () => {
           ></link>
         </Helmet>
 
-        <Nav />
-        <Hero />
-        <FAQs />
-        <Quote />
-        <Resources />
-        <Footer />
+        <NavMobile />
+        <HeroMobile />
+        <FAQsMobile />
+        <QuoteMobile />
+        <ResourcesMobile />
+        <FooterMobile />
 
         <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -70,12 +70,12 @@ const IndexPage = () => {
           ></link>
         </Helmet>
 
-        <NavMobile />
-        <HeroMobile />
-        <FAQsMobile />
-        <QuoteMobile />
-        <ResourcesMobile />
-        <FooterMobile />
+        <Nav />
+        <Hero />
+        <FAQs />
+        <Quote />
+        <Resources />
+        <Footer />
 
         <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
