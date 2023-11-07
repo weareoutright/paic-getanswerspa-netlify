@@ -39,6 +39,7 @@
 }
 
 .SingleResourceFormMobile, form {
+    margin: .5em 0em;
   .SingleResource {
     min-height: 9em;
     max-height: 9em;
@@ -46,7 +47,7 @@
     background-color: $white;
     border: 2px solid $dark-teal;
     padding:  .5em .75em;
-    margin: 0em .5em;
+    margin: .5em;
     border-radius: .85em;
     text-align: left;
     box-shadow: 8px 8px 0px 0px $dark-teal;
