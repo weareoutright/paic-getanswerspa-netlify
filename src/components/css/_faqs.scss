@@ -56,7 +56,8 @@
         padding-top: 3em;
     }
     .faq-content {
-        width: 35%;
+        width: 20em;
+        min-width: fit-content;
         display: flex;
         flex-direction: column;
         margin-left: -8em;
@@ -81,12 +82,15 @@
             width: 8em;
             line-height: 1em;
             margin-bottom: .5em;
+            .faq-topic-header {
+                font-size: .75em !important;
+            }
         }
 
     }
 
     .faq-q-and-a {
-        width: 24.75em;
+        width: 20rem;
         text-wrap: balance;
     }
 

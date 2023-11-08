@@ -22,7 +22,7 @@ const SingleFAQ = ({ topic }) => {
         }}
       >
         <h4>
-          {topic.title}
+          <span className="faq-topic-header">{topic.title}</span>
           <button
             onClick={() => {
               if (showAnswers) setShowAnswers(false);
