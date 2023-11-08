@@ -1,10 +1,11 @@
 .Footer {
     background-color: $dark-teal;
     color: $white;
-    padding: 3em 15em 0em 13em !important;
+    padding: 3em 15em 5em 13em !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 0;
     .footer-content {
         .contact-info {
             font-family: $main-typeface, sans-serif;
@@ -65,6 +66,7 @@
     align-items: center;
     justify-content: center;
     padding: 10em 13em 0em 13em !important;
+    margin-bottom: 0;
     .footer-content {
         align-items: center;
         text-align: center;
