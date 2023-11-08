@@ -60,6 +60,7 @@ const Nav = () => {
         {NAV_LINKS.map((link) => {
           return (
             <AnchorLink
+              data-mdb-smooth-scroll="smooth-scroll"
               key={link.title}
               to={link.url}
               className={

@@ -28,6 +28,8 @@ const NavMobile = () => {
                       className="nav-link"
                       aria-current="page"
                       href={`#${link.hash}`}
+                      data-mdb-smooth-scroll="smooth-scroll"
+                      data-mdb-offset="50"
                     >
                       {link.title}
                     </a>
