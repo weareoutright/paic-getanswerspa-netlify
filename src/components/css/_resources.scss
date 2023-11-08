@@ -55,12 +55,17 @@
 
     h2 {
         font-size: 4.5em;
-        text-align: center;
+        text-align: left;
+        margin-bottom: 0em !important;
+        margin-left: .5em;
     }
 
     h4 {
-        padding: .5em 0em 0em 2em !important;
+        padding: .5em 0em 0em 0em !important;
+        margin-bottom: 0;
+        margin-left: 1.25em;
         font-size: 2em !important;
+        
     }
 
     .main-resources {
