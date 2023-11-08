@@ -10,14 +10,7 @@ const FooterMobile = () => {
           <p className="contact">Contact: {PAIC_INFO.contact}</p>
         </div>
         <p className="copyright">
-          © {new Date().getFullYear()} |{" "}
-          <a
-            href="https://www.immunizepa.org/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {PAIC_INFO.orgName}
-          </a>
+          © {new Date().getFullYear()} | {PAIC_INFO.orgName}
         </p>
         <div className="organizational-info">
           <div className="branding-images">
