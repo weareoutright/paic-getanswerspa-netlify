@@ -5,7 +5,7 @@ import { NAV_LINKS } from "../constants/navLinks";
 const NavMobile = () => {
   return (
     <div className="NavMobile">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-light bg-light">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -20,9 +20,6 @@ const NavMobile = () => {
             <img src={menuToggle} />
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            {/* <a className="navbar-brand" href="#">
-              PAIC
-            </a> */}
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {NAV_LINKS.map((link) => {
                 return (
