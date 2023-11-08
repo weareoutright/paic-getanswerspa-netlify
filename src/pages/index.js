@@ -15,7 +15,6 @@ import QuoteMobile from "../components/QuoteMobile";
 import FooterMobile from "../components/FooterMobile";
 
 import Helmet from "react-helmet";
-import { document } from "browser-monads-ts";
 
 import useWindowSize from "../helperFuncs/useWindowSize";
 
@@ -24,7 +23,6 @@ import { Script } from "gatsby";
 
 const IndexPage = () => {
   const { width } = useWindowSize();
-  document.addEventListener("touchstart", "handler", { passive: true });
 
   if (width >= 420 && width >= 600) {
     return (
