@@ -1,5 +1,5 @@
 import React from "react";
-import { PAIC_INFO } from "../constants/paicInfo";
+import { PAIC_COPYRIGHT, PAIC_INFO } from "../constants/paicInfo";
 
 const Footer = () => {
   return (
@@ -32,16 +32,7 @@ const Footer = () => {
               className="img-fluid"
             />
           </div>
-          <p className="copyright">
-            © {new Date().getFullYear()} |{" "}
-            <a
-              href="https://www.immunizepa.org/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {PAIC_INFO.orgName}
-            </a>
-          </p>
+          <PAIC_COPYRIGHT />
         </div>
       </div>
     </section>

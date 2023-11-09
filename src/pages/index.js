@@ -7,7 +7,8 @@ import Resources from "../components/Resources";
 import Footer from "../components/Footer";
 
 // mobile components
-import NavMobile from "../components/NavMobile";
+import NavMobileTheSecond from "../components/NavMobileTheSecond";
+// import NavMobile from "../components/NavMobile";
 import HeroMobile from "../components/HeroMobile";
 import FAQsMobile from "../components/FAQsMobile";
 import ResourcesMobile from "../components/ResourcesMobile";
@@ -70,7 +71,7 @@ const IndexPage = () => {
           ></link>
         </Helmet>
 
-        <NavMobile />
+        <NavMobileTheSecond />
         <HeroMobile />
         <FAQsMobile />
         <QuoteMobile />

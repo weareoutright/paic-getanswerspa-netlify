@@ -15,15 +15,14 @@ const NavMobile = () => {
             aria-controls="navbarTogglerDemo01"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            autoFocus="false"
           >
-            <img src={menuToggle} />
+            <img src={menuToggle} alt="" />
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {NAV_LINKS.map((link) => {
                 return (
-                  <li className="nav-item">
+                  <li className="nav-item" key={`nav-${link.hash}`}>
                     <a
                       className="nav-link"
                       aria-current="page"

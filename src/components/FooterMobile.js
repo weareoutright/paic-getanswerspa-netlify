@@ -1,5 +1,5 @@
 import React from "react";
-import { PAIC_INFO } from "../constants/paicInfo";
+import { PAIC_COPYRIGHT, PAIC_INFO } from "../constants/paicInfo";
 
 const FooterMobile = () => {
   return (
@@ -9,9 +9,7 @@ const FooterMobile = () => {
           <p className="site-name">{PAIC_INFO.siteName}</p>
           <p className="contact">Contact: {PAIC_INFO.contact}</p>
         </div>
-        <p className="copyright">
-          © {new Date().getFullYear()} | {PAIC_INFO.orgName}
-        </p>
+        <PAIC_COPYRIGHT />
         <div className="organizational-info">
           <div className="branding-images">
             <img alt="PAIC logo" src={PAIC_INFO.logo} />

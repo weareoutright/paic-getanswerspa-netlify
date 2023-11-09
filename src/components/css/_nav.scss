@@ -95,28 +95,57 @@
 }
 
 .NavMobile {
+    z-index: 5;
     position: fixed;
-    top: 0;
-    z-index: 4;
-    .navbar {
-        padding-left: 0em .5em;
-        background-color: $pink !important;
-        button {
-            border: none;
-            padding: .15em;
-            outline: none !important;
-            box-shadow: none !important;
+    color: $white;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    justify-content: space-between;
+    font-family: $secondary-typeface, sans-serif;
+    font-size: 1em;
+    border-bottom: 1px solid $pink;
+    .nav-container {
+        margin: 0;
+        .nav-link-container {
+            border-top: 1px solid $pink;
+            border-bottom: 1px solid $pink;
+        }
+        a {
+            color: $white;
+            text-decoration: none;
+            padding: 2em;
+            margin: 1em;
+            transition: all 125ms ease-in-out;
+            width: 100%;
+            margin: 0;
+        } 
+        
+        .active {
+            background-color: $pink;
+            color: $black;
+            font-weight: 800;
         }
     }
-    .collapse {
-        text-align: left;
-        transition: all 120ms ease-in;
-        padding-left: .5em;
-        .nav-link {
-            color: $black;
+    .nav-footer {
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footer-nav-images {
+            padding-top: 10em;
+            padding-bottom: 2em;
+            img {
+                margin: .25em;
+                scale: 90%;
+            }
         }
-        .nav-link:hover {
-            color: $purple;
+        .copyright {
+            a {
+                text-decoration: none;
+                color: $white;
+            }
         }
     }
 }
