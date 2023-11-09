@@ -73,6 +73,10 @@
 
 .nav-dark-teal {
     background-color: $dark-teal;
+    a:hover {
+        background-color: $pink;
+        color: black !important;
+    }
 }
 
 .nav-peach {
@@ -133,6 +137,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+         background-color: $dark-teal !important;
         .footer-nav-images {
             padding-top: 10em;
             padding-bottom: 2em;
