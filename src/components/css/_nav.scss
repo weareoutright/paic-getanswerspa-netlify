@@ -57,7 +57,7 @@
     .active {
         background-color: $peach !important;
     }
-    a {
+    a.nav-link {
         color: $black !important;
         
     }
@@ -133,13 +133,13 @@
         }
     }
     .nav-footer {
-        height: 65vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
          background-color: $dark-teal !important;
         .footer-nav-images {
-            padding-top: 10em;
+            padding-top: 5em;
             padding-bottom: 2em;
             img {
                 margin: .25em;
@@ -170,7 +170,7 @@
     }
 }
 
-.closed.nav-peach {
+.closed.nav-peach, .open.nav-peach {
     color: $dark-teal;
 }
 

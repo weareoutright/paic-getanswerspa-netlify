@@ -18,6 +18,7 @@ const NavMobileTheSecond = () => {
   const [navBackground, setNavBackground] = useState("NavMobile");
   const [navMobileBackground, setNavMobileBackground] =
     useState("NavMobile closed");
+  const [openNavClasses, setOpenNavClasses] = useState("open");
 
   const nav = document.getElementsByClassName("NavMobile");
   const homeArea = document.getElementsByClassName("Hero");
@@ -41,33 +42,38 @@ const NavMobileTheSecond = () => {
       setCurrentElement("Home");
       setNavBackground("NavMobile nav-dark-teal");
       setNavMobileBackground("NavMobile closed nav-dark-teal");
+      setOpenNavClasses("open nav-dark-teal");
     }
     if (elementsOverlap(nav, faqArea)) {
       setCurrentElement("FAQs");
       setNavBackground("NavMobile nav-purple");
       setNavMobileBackground("NavMobile closed nav-purple");
+      setOpenNavClasses("open nav-purple");
     }
     if (elementsOverlap(nav, quoteArea)) {
       setCurrentElement("Interviews");
       setNavBackground("NavMobile nav-pink");
       setNavMobileBackground("NavMobile closed nav-pink");
+      setOpenNavClasses("open nav-pink");
     }
     if (elementsOverlap(nav, resourcesArea)) {
       setCurrentElement("Resources");
       setNavBackground("NavMobile nav-peach");
       setNavMobileBackground("NavMobile closed nav-peach");
+      setOpenNavClasses("open nav-peach");
     }
     if (elementsOverlap(nav, contactArea)) {
       setCurrentElement("Contact");
       setNavBackground("NavMobile nav-peach");
       setNavMobileBackground("NavMobile closed nav-peach");
+      setOpenNavClasses("open nav-peach");
     }
   }, [offset]);
 
   if (navOpen) {
     return (
       <div className={navBackground} id="nav">
-        <div className="open">
+        <div className={openNavClasses}>
           <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
             <img src={closeMenu} alt="menu toggle button" />
           </div>
