@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/GetAnswersFavicon.png",
+        icon: "src/images/GetAnswersFavicon.svg",
       },
     },
     "gatsby-plugin-mdx",
