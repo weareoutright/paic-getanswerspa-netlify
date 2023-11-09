@@ -74,7 +74,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 420px) {
+@media only screen and (max-width: $md) and (min-width: $sm) {
 .Quote {
     font-size: .75em !important;
     .open-and-quote {

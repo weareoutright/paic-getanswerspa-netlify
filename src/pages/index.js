@@ -24,7 +24,7 @@ import { Script } from "gatsby";
 const IndexPage = () => {
   const { width } = useWindowSize();
 
-  if (width >= 420 && width >= 600) {
+  if (width >= 320 && width >= 600) {
     return (
       <>
         <Helmet>
