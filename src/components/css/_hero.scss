@@ -128,12 +128,12 @@
     }
 }
 
-@media only screen and (max-width: $sm) {
+@media only screen and (max-width: $sm) and (min-width: $xs) {
     .Hero {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 5em .5em 3em .5em !important;
+        padding: 5em .25em 3em 0em !important;
         
         h1 {
             font-size: 3em;

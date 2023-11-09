@@ -103,14 +103,14 @@
 }
 }
 
-@media only screen and (max-width: $sm) {
+@media only screen and (max-width: $sm) and (min-width: $xs) {
     .Footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 6em 13em 0em 13em !important;
+        padding: 6em !important;
         margin-bottom: 0;
-        font-size: .75em;
+        font-size: .65em;
         .footer-content {
             align-items: center;
             text-align: center;
@@ -133,7 +133,7 @@
                 margin-top: 1em;
                 font-size: .85em;
                 width: 100%;
-                padding: 1em;
+                padding: 2em 5em;
             }
             .organizational-info {
                 flex-direction: column;
@@ -141,6 +141,7 @@
                 .branding-images {
                     img {
                         margin: 1.5em;
+                        scale: 78%;
                     }
                 }
             }

@@ -100,7 +100,7 @@
 }
 }
 
-@media only screen and (max-width: $sm) {
+@media only screen and (max-width: $sm) and (min-width: $xs) {
     .FAQs {
         display: flex;
         flex-direction: column;
@@ -136,7 +136,7 @@
         }
         .faq-content-header {
             h4 {
-                width: 6.25em;
+                width: 5.25em;
                 line-height: 1em;
                 margin-bottom: .5em;
                 .faq-topic-header {
@@ -147,8 +147,11 @@
         }
     
         .faq-q-and-a {
-            width: 15.5rem;
+            width: 13.2rem;
             text-wrap: balance;
+            .faq-question {
+                font-size: .85em;
+            }
         }
     
         .accordian-arrow {
