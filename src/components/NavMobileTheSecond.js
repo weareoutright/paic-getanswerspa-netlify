@@ -6,13 +6,18 @@ import { NAV_LINKS } from "../constants/navLinks";
 
 import paicLogo from "../images/paic-logo.svg";
 import paaapLogo from "../images/PAAAP_1.svg";
+import menuToggle from "../images/menu-toggle.svg";
+import closeMenu from "../images/close-menu.svg";
 import { PAIC_COPYRIGHT } from "../constants/paicInfo";
 
 const NavMobileTheSecond = () => {
   const [currentElement, setCurrentElement] = useState("");
   const [offset, setOffset] = useState(0);
+  const [navOpen, setNavOpen] = useState(false);
 
   const [navBackground, setNavBackground] = useState("NavMobile");
+  const [navMobileBackground, setNavMobileBackground] =
+    useState("NavMobile closed");
 
   const nav = document.getElementsByClassName("NavMobile");
   const homeArea = document.getElementsByClassName("Hero");
@@ -35,58 +40,83 @@ const NavMobileTheSecond = () => {
     if (elementsOverlap(nav, homeArea)) {
       setCurrentElement("Home");
       setNavBackground("NavMobile nav-dark-teal");
+      setNavMobileBackground("NavMobile closed nav-dark-teal");
     }
     if (elementsOverlap(nav, faqArea)) {
       setCurrentElement("FAQs");
       setNavBackground("NavMobile nav-purple");
+      setNavMobileBackground("NavMobile closed nav-purple");
     }
     if (elementsOverlap(nav, quoteArea)) {
       setCurrentElement("Interviews");
       setNavBackground("NavMobile nav-pink");
+      setNavMobileBackground("NavMobile closed nav-pink");
     }
     if (elementsOverlap(nav, resourcesArea)) {
       setCurrentElement("Resources");
       setNavBackground("NavMobile nav-peach");
+      setNavMobileBackground("NavMobile closed nav-peach");
     }
     if (elementsOverlap(nav, contactArea)) {
       setCurrentElement("Contact");
       setNavBackground("NavMobile nav-peach");
+      setNavMobileBackground("NavMobile closed nav-peach");
     }
   }, [offset]);
 
-  return (
-    <div className={navBackground} id="nav">
-      <div className="nav-container">
-        {NAV_LINKS.map((link) => {
-          return (
-            <div className="nav-link-container">
-              <AnchorLink
-                data-mdb-smooth-scroll="smooth-scroll"
-                key={link.title}
-                to={link.url}
-                aria-current="page"
-                className={
-                  link.title === currentElement
-                    ? `active nav-link ${link.className}`
-                    : `nav-link ${link.className}`
-                }
-                onAnchorLinkClick={() => setCurrentElement(link.title)}
-              >
-                {link.title}
-              </AnchorLink>
-            </div>
-          );
-        })}
-      </div>
-      <div className="nav-footer">
-        <div className="footer-nav-images">
-          <img src={paicLogo} alt="PAIC logo" />
-          <img src={paaapLogo} alt="PAIC logo" />
+  if (navOpen) {
+    return (
+      <div className={navBackground} id="nav">
+        <div className="open">
+          <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
+            <img src={closeMenu} alt="menu toggle button" />
+          </div>
+          <div className="menu-text">CLOSE</div>
         </div>
-        <PAIC_COPYRIGHT />
+        <div className="nav-container">
+          {NAV_LINKS.map((link) => {
+            return (
+              <div className="nav-link-container">
+                <AnchorLink
+                  data-mdb-smooth-scroll="smooth-scroll"
+                  key={link.title}
+                  to={link.url}
+                  aria-current="page"
+                  className={
+                    link.title === currentElement
+                      ? `active nav-link ${link.className}`
+                      : `nav-link ${link.className}`
+                  }
+                  onAnchorLinkClick={() => {
+                    setCurrentElement(link.title);
+                    setNavOpen(false);
+                  }}
+                >
+                  {link.title}
+                </AnchorLink>
+              </div>
+            );
+          })}
+        </div>
+        <div className="nav-footer">
+          <div className="footer-nav-images">
+            <img src={paicLogo} alt="PAIC logo" />
+            <img src={paaapLogo} alt="PAIC logo" />
+          </div>
+          <PAIC_COPYRIGHT />
+        </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className={navMobileBackground}>
+        <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
+          <img src={menuToggle} alt="menu toggle button" />
+        </div>
+        <div className="menu-text">MENU</div>
+      </div>
+    );
+  }
 };
 
 export default NavMobileTheSecond;

@@ -154,3 +154,36 @@
         }
     }
 }
+
+.NavMobile.closed {
+    display: flex;
+    justify-content: start;
+    align-items:  center;
+    .menu-toggle {
+        background-color: $pink;
+        padding: 1em;
+    }
+
+    .menu-text {
+        padding: 1em;
+        font-weight: 800;
+    }
+}
+
+.closed.nav-peach {
+    color: $dark-teal;
+}
+
+.open {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    .menu-toggle {
+        background-color: $pink;
+        padding: .19em;
+    }
+    .menu-text {
+        padding: 1em;
+        font-weight: 800;
+    }
+}
