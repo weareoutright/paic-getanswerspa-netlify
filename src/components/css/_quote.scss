@@ -129,3 +129,59 @@
     }
 }
 }
+
+@media only screen and (max-width: $sm) {
+    .Quote {
+        font-size: .6em !important;
+        .open-and-quote {
+            display: flex;
+            flex-direction: column;
+            .open-quotation {
+                margin-top: .5em !important;
+                margin-bottom: -.15em !important;
+                padding-right: 0em !important;
+                text-align: right;
+                line-height: 0em;
+            }
+            .main-quote {
+                .quote-content {
+                    padding: 0em 2em !important;
+                }
+                .quote-author {
+                    font-size: 1.25em !important;
+                    margin-top: 1.5em !important;
+                    code {
+                        color: $purple;
+                    }
+                }
+                .quote-author-info {
+                    font-size: 1em !important;
+                }
+            }
+            .quote-carousel {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2em;
+                button {
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    height: 1.5em;
+                    width: 1.5em;
+                    background-color: transparent;
+                    margin: .75em;
+                }
+                button.active {
+                    background-color: #fff;
+                }
+            }
+            .close-quotation {
+                background-color: red;
+                line-height: 0em;
+                padding: 0em !important;
+                margin-bottom: .5em;
+                margin-top: -.15em;
+            }
+        }
+    }
+}

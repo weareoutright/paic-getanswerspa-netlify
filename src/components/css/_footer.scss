@@ -102,3 +102,48 @@
     }
 }
 }
+
+@media only screen and (max-width: $sm) {
+    .Footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6em 13em 0em 13em !important;
+        margin-bottom: 0;
+        font-size: .75em;
+        .footer-content {
+            align-items: center;
+            text-align: center;
+            .contact-info {
+                text-wrap: nowrap;
+                margin-bottom: 1.25em;
+            }
+            .copyright {
+                font-family: $secondary-typeface;
+                text-wrap: nowrap;
+                a {
+                    color: $pink;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+            .mission-statement {
+                justify-content: center;
+                margin-top: 1em;
+                font-size: .85em;
+                width: 100%;
+                padding: 1em;
+            }
+            .organizational-info {
+                flex-direction: column;
+                padding: .5em 2em;
+                .branding-images {
+                    img {
+                        margin: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}

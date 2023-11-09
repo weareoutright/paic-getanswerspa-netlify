@@ -84,3 +84,40 @@
     }
 }
 }
+
+@media only screen and (max-width: $sm) {
+    .Resources {
+        padding: 1em 0em 3em 0em !important;
+    
+        h2 {
+            font-size: 3em;
+            text-align: center;
+            margin: .5em auto;
+        }
+    
+        h4 {
+            padding: .5em 0em 0em 1.5em !important;
+            // margin-bottom: 0;
+            // margin-left: 1.25em;
+            margin: 0 auto;
+            font-size: 1.75em !important;
+            text-align: left;
+            
+        }
+    
+        .main-resources {
+            align-items: center;
+            display: flex;
+            justify-content: left;
+            margin-left: 2em;
+        }
+    
+        img {
+            margin-top: -11.85em;
+            scale: 65%;
+            float: right;
+            padding-right: 0;
+            margin-right: -2.65em;
+        }
+    }
+}

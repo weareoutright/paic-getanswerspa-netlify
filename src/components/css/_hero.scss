@@ -103,7 +103,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 4em .5em 4em .5em !important;
+        padding: 5em .5em 4em .5em !important;
         
         h1 {
             font-size: 5em;
@@ -123,6 +123,41 @@
             width: 107%;
             margin-right: -2.15em;
             padding-top: 2em;
+            padding-right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: $sm) {
+    .Hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5em .5em 3em .5em !important;
+        
+        h1 {
+            font-size: 3em;
+        }
+
+        h2 {
+            font-size: 1em;
+            text-wrap: balance;
+            line-height: 1;
+        }
+
+        button {
+            font-size: 1em;
+            svg {
+                height: 1em;
+                margin-bottom: .15em;
+            }
+        }
+
+        .hero-image, img {
+            float: right;
+            width: 112%;
+            margin-right: -2em;
+            padding-top: 1em;
             padding-right: 0;
         }
     }
