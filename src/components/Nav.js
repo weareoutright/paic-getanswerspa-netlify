@@ -19,13 +19,6 @@ const Nav = () => {
     "trigger-contact-highlight"
   );
 
-  console.log(nav);
-  console.log(homeArea);
-  console.log(faqArea);
-  console.log(quoteArea);
-  console.log(resourcesArea);
-  console.log(contactArea);
-
   useEffect(() => {
     if (typeof window !== `undefined`) {
       window.onscroll = () => {
