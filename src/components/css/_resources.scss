@@ -88,7 +88,7 @@
 @media only screen and (max-width: $sm) and (min-width: $xs) {
     .Resources {
         padding: 1em 0em 3em 0em !important;
-    
+        width: 100%;
         h2 {
             font-size: 2.75em;
             text-align: center;
@@ -107,15 +107,15 @@
             align-items: center;
             display: flex;
             justify-content: left;
-            margin-left: .5em;
+            margin-left: 0 auto;
         }
     
         img {
-            margin-top: -12.85em;
-            scale: 55%;
+            margin-top: -11.75em;
+            scale: 65%;
             float: right;
             padding-right: 0;
-            margin-right: -3.5em;
+            margin-right: -2.7em;
         }
     }
 }

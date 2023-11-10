@@ -130,9 +130,10 @@
 }
 }
 
-@media only screen and (max-width: $sm) {
+@media only screen and (max-width: $sm) and (min-width: $xs) {
     .Quote {
         font-size: .6em !important;
+        width: 100%;
         .open-and-quote {
             display: flex;
             flex-direction: column;

@@ -4,7 +4,7 @@
     flex-direction: row;
     background-color: $purple;
     color: $white;
-    padding: 3.5em .5em 10em 13em !important;
+    padding: 3.5em 5em 10em 13em !important;
     min-height: auto;
     height: fit-content;
     .faq-header-and-image {
@@ -24,7 +24,7 @@
         width: 75%;
         display: flex;
         flex-direction: column;
-        padding: 1em 10em !important;
+        margin: 0 auto;
         h2 {
             color: $pink;
             font-family: $main-typeface, sans-serif;
@@ -56,12 +56,12 @@
         padding-top: 3em;
     }
     .faq-content {
-        width: 20em;
+        width: 100%;
         min-width: fit-content;
         display: flex;
         flex-direction: column;
-        margin-left: -8em;
-        margin-bottom: 5em;
+        margin: 0 auto;
+        padding: 3em;
         h2 {
             color: $pink;
             font-family: $main-typeface, sans-serif;
@@ -104,7 +104,7 @@
     .FAQs {
         display: flex;
         flex-direction: column;
-        padding: .5em 0em !important;
+        padding: .25em 0em !important;
     
         .faq-image {
             float: left;
@@ -113,12 +113,11 @@
             padding-top: 3em;
         }
         .faq-content {
-            width: 20em;
+            width: 100%;
             min-width: fit-content;
             display: flex;
             flex-direction: column;
-            margin-left: -8em;
-            margin-bottom: 5em;
+            margin: 0 auto;
             h2 {
                 color: $pink;
                 font-family: $main-typeface, sans-serif;
