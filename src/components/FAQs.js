@@ -9,8 +9,8 @@ const FAQs = () => {
       <div className="faq-header-and-image">
         <img className="faq-image img-fluid" alt="faq" src={FAQImage} />
       </div>
+      <h2>FAQs</h2>
       <div className="faq-content">
-        <h2>FAQs</h2>
         {TOPICS.map((topic) => {
           return <SingleFAQ key={`${topic.title}-key`} topic={topic} />;
         })}

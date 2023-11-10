@@ -125,12 +125,54 @@
 	}
 }
 
-@keyframes fadeOut {
-	from {
-        transform: translate3d(0, 0, 0);
+@media only screen and (max-width: $md) and (min-width: $sm) {
+    .faq-content-header {
+        h4 {
+            border-bottom: 1px solid $pink;
+            padding-bottom: .5em;
+            margin-top: .5em;
+            margin-bottom: 0em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+             button {
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                border-radius: 50%;
+                margin: none;
+                height: fit-content;
+                width: auto;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                transition: all 125ms ease-in-out;
+                span {
+                    border: 1px solid $pink;
+                    border-radius: 50%;
+                    height: 1em !important;
+                    width: 1em !important;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                }
+    
+                span:hover {
+                    cursor: pointer;
+                }
+             }
+             button:hover {
+                background-color: $pink;
+             }
+        }
+    
+        h4:hover {
+            cursor: pointer;
+        }
     }
-	to {
-        opacity: 0;
-        transform: translate3d(0, -20%, 0);
-	}
 }
+
+@media only screen and (max-width: $sm) and (min-width: $xs) {
+
+}
+
