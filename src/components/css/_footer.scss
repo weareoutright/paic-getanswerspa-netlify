@@ -67,7 +67,6 @@
     justify-content: center;
     padding: 10em 12em 0em 12em !important;
     width: 100svw;
-    margin-bottom: 0;
     .footer-content {
         align-items: center;
         text-align: center;
@@ -76,7 +75,6 @@
             margin-bottom: 1.25em;
         }
         .copyright {
-            font-family: $secondary-typeface;
             text-wrap: nowrap;
             a {
                 color: $pink;
@@ -106,43 +104,17 @@
 
 @media only screen and (max-width: $sm) and (min-width: $xs) {
     .Footer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10em 12em 0em 12em !important;
         margin: 0;
         font-size: .65em;
         width: 100svw;
         .footer-content {
-            align-items: center;
-            text-align: center;
-            .contact-info {
-                text-wrap: nowrap;
-                margin-bottom: 1.25em;
-            }
-            .copyright {
-                font-family: $secondary-typeface;
-                text-wrap: nowrap;
-                a {
-                    color: $pink;
-                }
-                a:hover {
-                    text-decoration: underline;
-                }
-            }
             .mission-statement {
-                justify-content: center;
-                margin-top: 1em;
                 font-size: .85em;
-                width: 100%;
                 padding: 2em 5em;
             }
             .organizational-info {
-                flex-direction: column;
-                padding: .5em 2em;
                 .branding-images {
                     img {
-                        margin: 1.5em;
                         scale: 78%;
                     }
                 }
