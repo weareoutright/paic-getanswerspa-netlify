@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     align-items: top;
+    width: 100svw;
     h1 {
         color: $pink;
         font-family: $main-typeface, sans-serif;
@@ -104,7 +105,7 @@
         flex-direction: column;
         align-items: center;
         padding: 5em .5em 4em .5em !important;
-        width: 100%;
+        width: 100svw;
         h1 {
             font-size: 4em;
         }

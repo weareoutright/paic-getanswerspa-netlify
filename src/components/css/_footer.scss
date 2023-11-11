@@ -65,7 +65,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10em 13em 0em 13em !important;
+    padding: 10em 12em 0em 12em !important;
+    width: 100svw;
     margin-bottom: 0;
     .footer-content {
         align-items: center;
@@ -108,9 +109,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10em !important;
-        margin-bottom: 0;
+        padding: 10em 12em 0em 12em !important;
+        margin: 0;
         font-size: .65em;
+        width: 100svw;
         .footer-content {
             align-items: center;
             text-align: center;
