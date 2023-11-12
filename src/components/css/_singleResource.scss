@@ -78,7 +78,7 @@
 }
 
 
-@media only screen and (max-width: $sm) {
+@media only screen and (max-width: $sm) and (min-width: $xs) {
     .SingleResourceFormMobile, form {
         margin: .5em 0em;
       .SingleResource {
