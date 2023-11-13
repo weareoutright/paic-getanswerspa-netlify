@@ -50,7 +50,7 @@
 .FAQs {
     display: flex;
     flex-direction: column;
-    padding: .5em 0em !important;
+    padding: .5em !important;
     .faq-image {
         float: left;
         width: 80%;
@@ -58,7 +58,7 @@
         padding-top: 3em;
     }
     .faq-content {
-        width: 100svw;
+        width: 95svw;
         min-width: fit-content;
         display: flex;
         flex-direction: column;
@@ -69,7 +69,6 @@
             letter-spacing: -.01em;
             margin-bottom: .75em;
             margin-top: .5em;
-            margin-left: .25em;
         }
         .faq-topic {
             margin: 0 auto;
@@ -80,7 +79,7 @@
         justify-content: center;
         align-items: center;
         h4 {
-            width: 9em;
+            width: 100%;
             line-height: 1em;
             margin-bottom: .5em;
             .faq-topic-header {
