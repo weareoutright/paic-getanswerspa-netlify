@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { QUOTES } from "../constants/quotesInfo";
 
 const Quote = () => {
