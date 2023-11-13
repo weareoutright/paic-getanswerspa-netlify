@@ -82,14 +82,13 @@
         display: flex;
         flex-direction: column;
         .open-quotation {
-            margin-top: .5em !important;
             margin-bottom: -.15em !important;
             padding-right: 0em !important;
             line-height: 0em;
         }
         .main-quote {
             .quote-content {
-                padding: 0em 2em !important;
+                width: 100svw;
             }
             .quote-author {
                 font-size: 1.5em !important;
