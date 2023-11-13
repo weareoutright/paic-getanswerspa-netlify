@@ -1,34 +1,33 @@
 .Quote {
     background-color: $pink;
     color: $purple;
-    display: flex;
-    flex-direction: column;
+    height: fit-content;
     .open-and-quote {
         display: flex;
-        flex-direction: row;
-        padding-top: 1em;
-        padding-bottom: 6em;
+        flex-direction: column;
+        padding-top: 9em;
+        padding-bottom: 4em;
         .open-quotation {
-            font-size: 20em;
+            font-size: 17em;
+            line-height: 1;
             letter-spacing: -5px;
-            height: fit-content;
             transform: rotate(180deg);
             text-align: right;
             color: rgb(255, 255, 255, .3);
-            margin: 0 .2em 0 .3em;
+            margin: 0 .2em -.75em .3em;
             padding-right: .5em;
         }
         .main-quote {
-            margin: auto 0;
+            margin: 0;
             font-weight: 600;
-            padding-top: 1em;
             text-align: center;
             .quote-content {
                 text-transform: uppercase;
                 letter-spacing: -1px;
-                padding: 0;
+                padding: 1.5em;
                 font-size: 2.5em;
-                margin: 0;
+                margin: -1.5em auto;
+                width: 50%;
             }
             .quote-author, .quote-author-info {
                 font-family: $secondary-typeface, sans-serif;
@@ -64,14 +63,15 @@
         }
     }
     .close-quotation{
-        margin: 0 .3em 0 .2em;
-        font-size: 20em;
+        margin: -1em .3em 0 .2em;
+        font-size: 17em;
         letter-spacing: -5px;
+        line-height: 1;
         text-align: right;
         color: rgb(255, 255, 255, .3);
-        padding-top: .8em;
         padding-right: .5em;
         justify-content: end;
+        padding-bottom: .5em;
     }
 }
 
