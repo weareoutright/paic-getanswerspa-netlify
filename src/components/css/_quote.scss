@@ -5,8 +5,8 @@
     .open-and-quote {
         display: flex;
         flex-direction: column;
-        padding-top: 9em;
-        padding-bottom: 4em;
+        padding-top: 9em !important;
+        padding-bottom: 4em !important;
         .open-quotation {
             font-size: 17em;
             line-height: 1;
@@ -26,8 +26,8 @@
             overflow: hidden;
             flex-direction: row;
             .quote-carousel-item {
-                min-width: 100%;
-                width: 100%;
+                min-width: 100% !important;
+                width: 100% !important;
                 .quote-content {
                     text-transform: uppercase;
                     letter-spacing: -1px;
@@ -58,15 +58,9 @@
         align-items: center;
         justify-content: center;
         margin-top: 2em;
-        width: 100svw;
-        label > input[type="radio"] {
-            display: none;
-        }
+        text-align: center;
 
-        label > input[type="radio"] + *::before {
-            content: "";
-            display: inline-block;
-            vertical-align: bottom;
+        button {
             width: 1.5rem;
             height: 1.5rem;
             margin: .75em 1em;
@@ -74,18 +68,7 @@
             border-style: solid;
             border-width: 0.1rem;
             border: 2px solid #fff;
-          }
-
-        label > input[type="radio"]:checked + * {
-        color: $white;
         }
-
-        label > input[type="radio"]:checked + *::before {
-            background: $white;
-          }
-        label > input[type="radio"]:checked + * {
-            color: $white;
-          }
     }
     .close-quotation{
         margin: -1em .3em 0 .2em;
@@ -112,6 +95,8 @@
             line-height: 0em;
         }
         .main-quote {
+            display: flex;
+            flex-direction: column;
             .quote-content {
                 width: 100svw;
             }
@@ -128,6 +113,7 @@
         }
         .quote-carousel {
             button {
+                z-index: 2;
                 margin: .75em;
                 height: 2.35em
             }
