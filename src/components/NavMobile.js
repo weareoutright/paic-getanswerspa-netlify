@@ -73,8 +73,8 @@ const NavMobile = () => {
   if (navOpen) {
     return (
       <div className={navBackground} id="nav">
-        <div className={openNavClasses}>
-          <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
+        <div className={openNavClasses} onClick={() => setNavOpen(!navOpen)}>
+          <div className="menu-toggle">
             <img src={closeMenu} alt="menu toggle button" />
           </div>
           <div className="menu-text">CLOSE</div>

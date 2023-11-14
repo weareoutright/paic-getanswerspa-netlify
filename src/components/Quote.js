@@ -10,15 +10,15 @@ const Quote = () => {
 
   useTimeout(() => {
     quote0Btn.click();
-  }, 10000);
+  }, 7000);
 
   useTimeout(() => {
     quote1Btn.click();
-  }, 20000);
+  }, 14000);
 
   useTimeout(() => {
     quote2Btn.click();
-  }, 30000);
+  }, 21000);
 
   return (
     <section className="Quote" id="interviews">
@@ -58,7 +58,7 @@ const Quote = () => {
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="0"
-            className="active"
+            className="quote0Btn active"
             aria-current="true"
             aria-label="Slide 1"
             id="quote0Btn"
@@ -69,6 +69,7 @@ const Quote = () => {
             data-bs-slide-to="1"
             aria-label="Slide 2"
             aria-current="true"
+            className="quote1Btn"
             id="quote1Btn"
           />
           <button
@@ -78,6 +79,7 @@ const Quote = () => {
             aria-label="Slide 3"
             aria-current="true"
             id="quote2Btn"
+            className="quote2Btn"
           />
         </div>
         <div className="close-quotation">,,</div>

@@ -45,6 +45,9 @@
                     font-size: 1em;
                     letter-spacing: .36px;
                     margin-bottom: 0.25em;
+                    code {
+                        color: $purple;
+                    }
                 }
                 .quote-author-info {
                     font-weight: 400;
@@ -57,6 +60,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin-bottom: 5em;
         button {
             width: 1.5rem;
             height: 1.5rem;
@@ -109,9 +113,6 @@
             .quote-author {
                 font-size: 1.5em !important;
                 margin-top: 1.5em !important;
-                code {
-                    color: $purple;
-                }
             }
             .quote-author-info {
                 font-size: 1.25em !important;
