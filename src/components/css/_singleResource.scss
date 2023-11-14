@@ -77,6 +77,19 @@
   }
 }
 
+@media only screen and (max-width: $xl) and (min-width: $lg) {
+    .SingleResourceFormMobile, form {
+        .SingleResource {
+            width: 16em !important;
+            .resource-link {
+                font-size: .65em !important;
+            }
+            .resource-title {
+                font-size: 1em !important;
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: $sm) and (min-width: $xs) {
     .SingleResourceFormMobile, form {

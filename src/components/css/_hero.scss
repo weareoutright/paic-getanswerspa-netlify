@@ -1,6 +1,6 @@
 .Hero {
     background-color: $dark-teal;
-    padding: 3em .5em 10em 10em !important;
+    padding: 3em .5em 10em 10em;
     display: flex;
     flex-direction: row;
     align-items: top;
@@ -99,12 +99,31 @@
 
 }
 
+@media only screen and (max-width: $xl) and (min-width: $lg) {
+    .Hero {
+        padding: .25em .5em 10em 4em;
+
+        .hero-main-content {
+            padding-top: 1.25em;
+            h1 {
+                font-size: 6em;
+            }
+
+            h2 {
+                font-size: 2em;
+                width: 50%;
+                text-wrap: balance;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: $md) and (min-width: $sm) {
     .Hero {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 5em .5em 4em .5em !important;
+        padding: 5em .5em 4em .5em;
         h1 {
             font-size: 4em;
         }
@@ -130,7 +149,7 @@
 
 @media only screen and (max-width: $sm) and (min-width: $xs) {
     .Hero {
-        padding: 5em 0em 3em 0em !important;
+        padding: 5em 0em 3em 0em;
         
         h1 {
             font-size: 2.75em;
