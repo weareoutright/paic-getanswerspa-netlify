@@ -73,7 +73,7 @@ const IndexPage = () => {
         <NavMobile />
         <HeroMobile />
         <FAQsMobile />
-        <QuoteMobile />
+        <Quote />
         <ResourcesMobile />
         <FooterMobile />
 
