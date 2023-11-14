@@ -1,7 +1,25 @@
 import React from "react";
 import { QUOTES } from "../constants/quotesInfo";
+import useTimeout from "../helperFuncs/useTimeout";
+import { document } from "browser-monads-ts";
 
 const Quote = () => {
+  const quote0Btn = document.getElementById("quote0Btn");
+  const quote1Btn = document.getElementById("quote1Btn");
+  const quote2Btn = document.getElementById("quote2Btn");
+
+  useTimeout(() => {
+    quote0Btn.click();
+  }, 10000);
+
+  useTimeout(() => {
+    quote1Btn.click();
+  }, 20000);
+
+  useTimeout(() => {
+    quote2Btn.click();
+  }, 30000);
+
   return (
     <section className="Quote" id="interviews">
       <div
@@ -43,6 +61,7 @@ const Quote = () => {
             className="active"
             aria-current="true"
             aria-label="Slide 1"
+            id="quote0Btn"
           />
           <button
             type="button"
@@ -50,6 +69,7 @@ const Quote = () => {
             data-bs-slide-to="1"
             aria-label="Slide 2"
             aria-current="true"
+            id="quote1Btn"
           />
           <button
             type="button"
@@ -57,6 +77,7 @@ const Quote = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
             aria-current="true"
+            id="quote2Btn"
           />
         </div>
         <div className="close-quotation">,,</div>
