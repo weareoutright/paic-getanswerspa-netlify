@@ -92,8 +92,10 @@
         img {
             position: absolute;
             right: 0;
-            height: 75%;
-            width: auto;
+            height: 72%;
+            width: 40%;
+            object-fit: cover;
+            border-radius: 3% 0% 0% 3%;
         }
     }
 
