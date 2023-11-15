@@ -4,7 +4,7 @@
     flex-direction: column;
     background-color: $purple;
     color: $white;
-    padding: 15.5em 5em 15.5em 30em !important;
+    padding: 15.5em 5em 15.5em 30em;
     min-height: auto;
     h2 {
         font-size: 5em;
@@ -52,11 +52,28 @@
 
 }
 
-@media only screen and (max-width: $xl) and (min-width: $md) {
+@media only screen and (max-width: $xxl) and (min-width: $lg) {
     .FAQs {
         img {
-            height: 100% !important;
-            width: 30% !important;
+            position: absolute;
+            left: 0;
+            margin-top: -13em;
+            height: 35%;
+            transform: rotate(180deg);
+            border-radius: 15px 0 0 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: $lg) and (min-width: $md) {
+    .FAQs {
+        img {
+            position: absolute;
+            left: 0;
+            margin-top: -13em;
+            height: 35%;
+            transform: rotate(180deg);
+            border-radius: 15px 0 0 15px;
         }
     }
 }

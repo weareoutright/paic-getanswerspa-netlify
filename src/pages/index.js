@@ -11,7 +11,6 @@ import NavMobile from "../components/NavMobile";
 import HeroMobile from "../components/HeroMobile";
 import FAQsMobile from "../components/FAQsMobile";
 import ResourcesMobile from "../components/ResourcesMobile";
-import QuoteMobile from "../components/QuoteMobile";
 import FooterMobile from "../components/FooterMobile";
 
 import Helmet from "react-helmet";
@@ -24,7 +23,7 @@ import { Script } from "gatsby";
 const IndexPage = () => {
   const { width } = useWindowSize();
 
-  if (width >= 320 && width >= 600) {
+  if (width >= 320 && width >= 1356) {
     return (
       <>
         <Helmet>
