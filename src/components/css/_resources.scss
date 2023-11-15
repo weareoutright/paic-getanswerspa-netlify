@@ -36,16 +36,21 @@
         height: 20em;
         width: 5em;
     }
-    img {
-        position: absolute;
-        right: 0;
-        margin-top: -210px;
 
-        height: 50%;
-        width: 33%;
-        object-fit: cover;
-        object-position: 30% 50%;
-        border-radius: 15px 0 0 15px;
+    .resources-img {
+        overflow: hidden; 
+        img {
+            position: absolute;
+            right: 0;
+            margin-top: -45px;
+    
+            height: 23%;
+            width: 20%;
+            object-fit: cover;
+            object-position: 10% 5%;
+            border-radius: 5px 0 0 5px;
+            transform: scale(2.5);
+        }
     }
 }
 

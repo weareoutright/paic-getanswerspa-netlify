@@ -13,11 +13,13 @@ const Resources = () => {
         );
       })}
       <div className="trigger-contact-highlight"></div>
-      <img
-        className="footer-img-overlap"
-        alt="adult hugging child"
-        src={resourceImg}
-      />
+      <div className="resources-img">
+        <img
+          className="footer-img-overlap"
+          alt="adult hugging child"
+          src={resourceImg}
+        />
+      </div>
     </section>
   );
 };
