@@ -52,6 +52,15 @@
 
 }
 
+@media only screen and (max-width: $xl) and (min-width: $md) {
+    .FAQs {
+        img {
+            height: 100% !important;
+            width: 30% !important;
+        }
+    }
+}
+
 @media only screen and (max-width: $md) and (min-width: $sm) {
 .FAQs {
     display: flex;
