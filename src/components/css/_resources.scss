@@ -37,24 +37,22 @@
         width: 5em;
     }
 
-    .resources-img {
-        overflow: hidden; 
-        img {
-            position: absolute;
-            right: 0;
-            margin-top: -45px;
-    
-            height: 23%;
-            width: 20%;
-            object-fit: cover;
-            object-position: 10% 5%;
-            border-radius: 5px 0 0 5px;
-            transform: scale(2.5);
-        }
+    img {
+        position: absolute;
+        right: 0;
+        margin-top: -45px;
+
+        height: 23%;
+        width: 20%;
+        object-fit: cover;
+        object-position: 10% 5%;
+        border-radius: 5px 0 0 5px;
+        transform: scale(2.5);
     }
+    
 }
 
-@media only screen and (max-width: $xl) and (min-width: $lg) {
+@media only screen and (max-width: $xl) and (min-width: $md) {
     .Resources {
         padding: 5.5em 4em 0em 4em;
     }
@@ -85,11 +83,16 @@
     }
 
     img {
-        margin-top: -12.5em;
-        scale: 75%;
+        margin-top: -4.75em;
         float: right;
         padding-right: 0;
         margin-right: -1.9em;
+
+        height: 14%;
+        width: 31%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        border-radius: 5px 0 0 5px;
     }
 }
 }

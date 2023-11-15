@@ -1,7 +1,7 @@
 import React from "react";
 import { DISPLAYED_RESOURCES } from "../constants/resourcesInfo";
 import MainResourceTopic from "./MainResourceTopic";
-import resourceImgMobile from "../images/adult-hugging-child-mobile.svg";
+import resourceImgMobile from "../images/adult-hugging-child.png";
 
 const ResourcesMobile = () => {
   return (

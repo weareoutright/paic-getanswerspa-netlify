@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { getSvg } from "../images/svgFiles";
-import heroImgMobile from "../images/hero-image-mobile.svg";
+import heroImgMobile from "../images/hero-image.png";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const HeroMobile = () => {

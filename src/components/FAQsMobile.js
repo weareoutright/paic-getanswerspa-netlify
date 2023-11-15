@@ -1,6 +1,6 @@
 import React from "react";
 import SingleFAQ from "./SingleFAQ.js";
-import FAQImageMobile from "../images/upside-down-guy-mobile.svg";
+import FAQImageMobile from "../images/upside-down-guy.png";
 import { TOPICS } from "../constants/faqInfo";
 
 const FAQsMobile = () => {
