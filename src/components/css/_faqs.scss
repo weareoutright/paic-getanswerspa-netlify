@@ -54,13 +54,14 @@
 
 @media only screen and (max-width: $xxl) and (min-width: $lg) {
     .FAQs {
+        justify-content: center;
+        padding: 5em 2em 5em 2em;
         img {
-            position: absolute;
-            left: 0;
-            margin-top: -13em;
-            height: 35%;
+            height: auto;
+            width: 90%;
             transform: rotate(180deg);
-            border-radius: 15px 0 0 15px;
+            border-radius: 1em 0 0 1em;
+            margin-left: -2em;
         }
     }
 }
@@ -85,9 +86,10 @@
     padding: .5em !important;
     .faq-image {
         float: left;
-        width: 80%;
+        width: 100%;
         margin-left: -1.5em;
-        padding-bottom: 3em;
+        padding-bottom: 0em;
+        margin-top: 3em;
         transform: rotate(180deg);
         border-radius: 15px 0 0 15px;
     }

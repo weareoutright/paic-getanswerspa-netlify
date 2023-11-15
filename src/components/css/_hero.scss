@@ -92,16 +92,38 @@
         img {
             position: absolute;
             right: 0;
-            height: 72%;
+            height: 80%;
             width: 40%;
             object-fit: cover;
-            border-radius: 15px 0 0 15px;
+            border-radius: 1em 0 0 1em;
         }
     }
 
 }
 
-@media only screen and (max-width: $xl) and (min-width: $md) {
+@media only screen and (max-width: $xxl) and (min-width: $lg) {
+    .Hero {
+        padding: 4em;
+        margin: 0 auto;
+        h1 {
+            font-size: 4.25em;
+        }
+        h2 {
+            font-size: 1.75em;
+        }
+        .hero-image {
+            width: 140%;
+            height: 50%;
+            object-fit: cover;
+            border-radius: 1em;
+            padding-top: 0em;
+            margin-top: 2em;
+            border-radius: 1em 0 0 1em;
+        }
+    }
+}
+
+@media only screen and (max-width: $lg) and (min-width: $md) {
     .Hero {
         padding: .25em .5em 10em 4em;
 
@@ -119,15 +141,19 @@
         }
 
         .hero-image {
-            padding-top: 4em;
-            img {
-                position: absolute;
-                right: 0;
-                height: 80%;
-                width: 50%;
                 object-fit: cover;
-                border-radius: 15px 0 0 15px;
-            }
+                border-top-left-radius: 1em;
+
+                float: right;
+                width: 110%;
+                height: auto;
+                margin-top: 0;
+                margin-right: -10em;
+                padding-top: 0em;
+                margin-top: 2em;
+                padding-right: 0;
+                border-radius: 1em 0 0 1em;
+                object-fit: cover;
         }
     }
 }
@@ -154,11 +180,14 @@
         .hero-image {
             float: right;
             width: 110%;
+            height: auto;
             margin-top: 0;
             margin-right: -2.15em;
-            padding-top: 2em;
+            padding-top: 0em;
+            margin-top: 2em;
             padding-right: 0;
-            border-radius: 15px 0 0 15px;
+            border-radius: 1em 0 0 1em;
+            object-fit: cover;
         }
     }
 }
@@ -185,10 +214,11 @@
         }
 
         .hero-image {
-            width: 112%;
-            margin-right: -2em;
-            padding-top: 1em;
-            border-radius: 15px 0 0 15px;
+            img {
+                width: 112%;
+                margin-right: -2em;
+                padding-top: 1em;
+            }
         }
     }
 }
