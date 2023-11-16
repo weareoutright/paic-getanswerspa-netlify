@@ -37,7 +37,7 @@ export const TOPICS = [
             </ul>
             <small>
               *It is important to note that not everyone with the flu will have
-              a fever.
+              a fever.{" "}
             </small>
             <small>
               For more info, visit{" "}
