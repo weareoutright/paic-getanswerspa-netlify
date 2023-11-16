@@ -1,3 +1,31 @@
+@media only screen and (min-width: $xxxl) {
+    .Hero {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 8em 5em 4em 10em !important;
+        .hero-main-content {
+            margin: 0 auto;
+            h1 {
+                font-size: 6em !important;
+                margin-top: 0;
+            }
+            h2 {
+                font-size: 1.75em;
+            }
+        }
+        .hero-image {
+            padding: 0 !important;
+            img {
+                position: relative !important;
+                height: 87% !important;
+                width: auto !important;
+                border-radius: 1em !important;
+            }
+        }
+    }
+}
+
 .Hero {
     background-color: $dark-teal;
     padding: 3em .5em 10em 10em;
@@ -99,7 +127,6 @@
         }
     }
 }
-
 
 @media only screen and (max-width: $xl) and (min-width: $lg) {
     .Hero {
