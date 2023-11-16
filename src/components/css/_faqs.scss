@@ -1,3 +1,25 @@
+@media only screen and (min-width: $xxxl) {
+    .FAQs {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        .faq-header-and-image {
+            .faq-image {
+                height: 45% !important;
+                margin-top: -10em !important;
+                left: 9em !important;
+                border-radius: 1em !important;
+                width: 30% !important;
+                object-position: 70% 20% !important;
+            }
+        }
+
+        .faq-h2-and-content {
+            width: 60% !important;
+        }
+    }
+}    
+
 .FAQs {
     height: fit-content;
     display: flex;
@@ -6,10 +28,6 @@
     color: $white;
     padding: 15.5em 5em 15.5em 30em;
     min-height: auto;
-    h2 {
-        font-size: 5em;
-        color: $pink;
-    }
     .faq-header-and-image {
         width: 25%;
         display: flex;
@@ -28,25 +46,31 @@
             border-radius: 15px 0 0 15px;
         }   
     }
-    .faq-content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
+    .faq-h2-and-content {
         h2 {
+            font-size: 5em;
             color: $pink;
-            font-family: $main-typeface, sans-serif;
-            font-size: 5.75em;
-            font-style: normal;
-            font-weight: 700;
-            line-height: .75em; /* 93.966% */
-            letter-spacing: -.01em;
-            text-transform: uppercase;
-            padding-bottom: 0;
-            margin-top: 1.5em;
-            margin-bottom: .5em !important;
-            padding-left: 0 !important;
-            text-align: left;
+        }
+        .faq-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            h2 {
+                color: $pink;
+                font-family: $main-typeface, sans-serif;
+                font-size: 5.75em;
+                font-style: normal;
+                font-weight: 700;
+                line-height: .75em; /* 93.966% */
+                letter-spacing: -.01em;
+                text-transform: uppercase;
+                padding-bottom: 0;
+                margin-top: 1.5em;
+                margin-bottom: .5em !important;
+                padding-left: 0 !important;
+                text-align: left;
+            }
         }
     }
 

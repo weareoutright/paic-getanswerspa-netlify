@@ -9,11 +9,13 @@ const FAQs = () => {
       <div className="faq-header-and-image">
         <img className="faq-image" alt="faq" src={FAQImage} />
       </div>
-      <h2>FAQs</h2>
-      <div className="faq-content">
-        {TOPICS.map((topic) => {
-          return <SingleFAQ key={`${topic.title}-key`} topic={topic} />;
-        })}
+      <div className="faq-h2-and-content">
+        <h2>FAQs</h2>
+        <div className="faq-content">
+          {TOPICS.map((topic) => {
+            return <SingleFAQ key={`${topic.title}-key`} topic={topic} />;
+          })}
+        </div>
       </div>
     </div>
   );
