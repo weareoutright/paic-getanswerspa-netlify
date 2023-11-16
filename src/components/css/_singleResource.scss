@@ -91,6 +91,21 @@
     }
 }
 
+@media only screen and (max-width: $xl) and (min-width: $lg) {
+    .SingleResourceFormMobile, form {
+        margin-left: -1em;
+        .SingleResource {
+            width: 19em !important;
+            .resource-link {
+                font-size: .65em !important;
+            }
+            .resource-title {
+                font-size: 1em !important;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: $sm) and (min-width: $xs) {
     .SingleResourceFormMobile, form {
         margin: .5em 0em;

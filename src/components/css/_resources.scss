@@ -54,7 +54,21 @@
 @media only screen and (max-width: $xxl) and (min-width: $xl) {
     .Resources {
         img {
-            width: 36%;
+            height: 36%;
+        }
+    }
+}
+
+@media only screen and (max-width: $xl) and (min-width: $lg) {
+    .Resources {
+        padding: 4em;
+        .main-resources {
+            justify-content: left;
+            margin: 0 auto;
+        }
+        img {
+            height: 40%;
+            width: 39%;
         }
     }
 }
