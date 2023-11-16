@@ -39,9 +39,12 @@
         .organizational-info {
             display: flex;
             flex-direction: row;
-            align-items: flex-end;
+            align-items: end;
             justify-content: space-between;
             .branding-images {
+                display: flex;
+                margin-bottom: 0;
+                align-items: end;
                 img {
                     margin-right: 6em;
                 }

@@ -25,11 +25,15 @@ const Footer = () => {
         </div>
         <div className="organizational-info">
           <div className="branding-images">
-            <img alt="PAIC logo" src={PAIC_INFO.logo} className="img-fluid" />
+            <img
+              alt="PAIC logo"
+              src={PAIC_INFO.logo}
+              className="logo img-fluid"
+            />
             <img
               alt="Chapter info"
               src={PAIC_INFO.chapter}
-              className="img-fluid"
+              className="chapter img-fluid"
             />
           </div>
           <PAIC_COPYRIGHT />
