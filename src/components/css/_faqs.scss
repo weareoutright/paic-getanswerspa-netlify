@@ -52,7 +52,26 @@
 
 }
 
-@media only screen and (max-width: $xxl) and (min-width: $lg) {
+@media only screen and (max-width: $xxl) and (min-width: $xl) {
+    .FAQs {
+        padding: 12em 0em !important;
+
+        h2 {
+            padding-left: 7em;
+        }
+        .faq-header-and-image {
+            .faq-image {
+                width: 35%;
+            }
+        }
+        .faq-content {
+            padding-left: 35em;
+            padding-right: 10em;
+        }
+    }
+}
+
+@media only screen and (max-width: $xl) and (min-width: $lg) {
     .FAQs {
         justify-content: center;
         padding: 5em 2em 5em 2em;

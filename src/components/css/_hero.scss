@@ -101,7 +101,17 @@
 
 }
 
-@media only screen and (max-width: $xxl) and (min-width: $lg) {
+@media only screen and (min-width: $xl) {
+    .Hero {
+        padding: 5em .5em 15em 5em !important;
+        h1 {
+            font-size: 6em !important;
+        }
+    }
+}
+
+
+@media only screen and (max-width: $xl) and (min-width: $lg) {
     .Hero {
         padding: 4em;
         margin: 0 auto;
@@ -112,7 +122,7 @@
             font-size: 1.75em;
         }
         .hero-image {
-            width: 140%;
+            width: 150%;
             height: 50%;
             object-fit: cover;
             border-radius: 1em;
