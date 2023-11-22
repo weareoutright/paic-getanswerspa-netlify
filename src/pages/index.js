@@ -44,11 +44,6 @@ const IndexPage = () => {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-RGYCDXQMSF"
         ></Script>
-        {/* <Script>
-          window.dataLayer = window.dataLayer || []; 
-          function gtag() {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-RGYCDXQMSF');
-        </Script> */}
 
         <Nav />
         <Hero />
