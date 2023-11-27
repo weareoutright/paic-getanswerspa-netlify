@@ -7,6 +7,7 @@ const Quote = () => {
   const quote0Btn = document.getElementById("quote0Btn");
   const quote1Btn = document.getElementById("quote1Btn");
   const quote2Btn = document.getElementById("quote2Btn");
+  const quote3Btn = document.getElementById("quote3Btn");
 
   useTimeout(() => {
     quote0Btn.click();
@@ -19,6 +20,10 @@ const Quote = () => {
   useTimeout(() => {
     quote2Btn.click();
   }, 21000);
+
+  useTimeout(() => {
+    quote3Btn.click();
+  }, 28000);
 
   return (
     <section className="Quote" id="interviews">
@@ -52,6 +57,13 @@ const Quote = () => {
             </p>
             <small className="quote-author-info">{QUOTES[2].author_info}</small>
           </div>
+          <div className="carousel-item quote-carousel-item" key={QUOTES[3].id}>
+            <p className="quote-content">{QUOTES[3].content}</p>
+            <p className="quote-author">
+              <code>&#8212;</code> {QUOTES[3].author}
+            </p>
+            <small className="quote-author-info">{QUOTES[3].author_info}</small>
+          </div>
         </div>
         <div className="carousel-indicators quote-carousel">
           <button
@@ -80,6 +92,15 @@ const Quote = () => {
             aria-current="true"
             id="quote2Btn"
             className="quote2Btn"
+          />
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+            aria-current="true"
+            id="quote3Btn"
+            className="quote3Btn"
           />
         </div>
         <div className="close-quotation">,,</div>
