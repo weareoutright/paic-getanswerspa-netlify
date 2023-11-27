@@ -2,22 +2,29 @@ export const QUOTES = [
   {
     id: 0,
     content:
-      "As a pediatrician I know the importance of vaccines. As a mother, it was important for me to make sure my baby is protected.",
-    author: "Dr. Stephanie Lee",
-    author_info: "General Pediatrician, Reading, PA",
+      "I highly recommend children absolutely get the COVID-19 vaccine. We know this vaccine is safe, effective and prevents children from getting severe disease and hospitalization.",
+    author: "Dr. Norell Atkinson",
+    author_info: "Pediatrician, St. Christopher’s Hospital for Children",
   },
   {
     id: 1,
     content:
-      "It’s very for parents to protect their kids from COVID and prevent some of those severe complications.",
-    author: "Dr. Nitin Humar",
-    author_info: "Lehigh Valley Hospitals",
+      "We wanted to vaccinate our children so that they could enjoy all the typical childhood activities and not be burdened with an illness that could have been prevented.",
+    author: "Emily B.",
+    author_info: "Parent",
   },
   {
     id: 2,
     content:
-      "We know that this vaccination is safe and effective. It prevent kids from getting hospitalized from the disease.",
-    author: "Dr. Norell Atkinson",
-    author_info: "St. Christopher’s Hospital for Children",
+      "We choose to get our kids vaccinated because we want to protect them the best way we possibly can in order to keep them healthy and safe!",
+    author: "Laura and Dan G.",
+    author_info: "Parents",
+  },
+  {
+    id: 3,
+    content:
+      "I believe vaccines are important for the health and safety of my children by helping them to build immunity against diseases that could be potentially harmful. I also think it’s important for the safety of the surrounding community by preventing the spread of illness.",
+    author: "Katie C.",
+    author_info: "Parent",
   },
 ];
