@@ -17,8 +17,6 @@ import Helmet from "react-helmet";
 
 import useWindowSize from "../helperFuncs/useWindowSize";
 
-import { document, window } from "browser-monads-ts";
-
 import "../components/css/styles.scss";
 import { Script } from "gatsby";
 

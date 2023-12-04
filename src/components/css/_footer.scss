@@ -125,14 +125,17 @@
             justify-content: center;
             margin-top: 1em;
             font-size: .75em;
-            width: 100%;
+            width: 60%;
+            margin: 0 auto;
+            margin-bottom: 3em;
         }
         .organizational-info {
             flex-direction: column;
             padding: .5em 2em;
             .branding-images {
                 img {
-                    margin: 1.5em;
+                    margin: 1.5em .5em;
+                    scale: 80%;
                 }
             }
         }

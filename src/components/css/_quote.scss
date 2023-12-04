@@ -90,12 +90,15 @@
 @media only screen and (max-width: $md) and (min-width: $sm) {
 .Quote {
     font-size: .75em !important;
-    height: 100svh;
+    height: fit-content;
+    max-height: 200svh;
     padding-top: 3.75em !important;
+    padding-bottom: 3.75 !important;
     .open-and-quote {
         display: flex;
         flex-direction: column;
         padding-top: 10em !important;
+        padding-bottom: 8em !important;
         .open-quotation {
             margin-bottom: -.15em !important;
             padding-right: 0em !important;
@@ -130,7 +133,8 @@
         .close-quotation {
             line-height: 0;
             padding: 0em;
-            margin-top: .35em;
+            margin-top: .15em;
+            margin-bottom: .25em;
             margin-left: 1.45em;
         }
     }
